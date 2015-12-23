@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>QuickAssist</title>
+
+    <link rel="stylesheet" href="/assets/styles/modern.css">
+
+    <%= csrf_meta_tags %>
+</head>
+<body>
+
+    <div class="page" data-controller="js-app">
+        <%= yield %>
+    </div>
+
+    <script src=<% root_path %>"/assets/scripts/bundle.js"></script>
+</body>
+</html>
