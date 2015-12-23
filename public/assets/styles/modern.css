@@ -4,7 +4,6 @@
 /* ---------------------------------------------------------------------
 RESET CSS (thanks Eric Meyer)
 ------------------------------------------------------------------------ */
-@import url(https://fonts.googleapis.com/css?family=Raleway|Lora:400,700|Indie+Flower);
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -147,11 +146,15 @@ img {
   .page {
     background-color: #fefffd;
     font-size: 16px;
-    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     letter-spacing: 1px;
     line-height: 1.2; }
-  .page-hd {
-    border-bottom: 4px solid #2d9fe9; }
+  .page-ft {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #666; }
   .alert {
     margin-bottom: 10px;
     padding: 15px;
@@ -212,7 +215,7 @@ img {
     /* fallback for non rgba browsers */
     color: rgba(255, 255, 255, 0.9);
     font-size: 16px;
-    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: normal;
     /* set to normal to .btn can be usd on inputs in firefox with consistency */
     text-align: center;
@@ -376,7 +379,7 @@ img {
 
 @media only screen and (min-width: 768px) {
   .hdg {
-    font-family: "Lora", "Georgia" serif;
+    font-family: "Georgia" serif;
     font-weight: normal;
     line-height: 1.2; }
   .hdg > a:hover {
@@ -393,7 +396,7 @@ img {
   .hdg_5 {
     font-size: 12px; }
   .mix-hdg_sans {
-    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
   .mix-hdg_caps {
     text-transform: uppercase; }
   .mix-hdg_blue {
@@ -461,8 +464,6 @@ img {
     text-align: right; }
   .mix-txt_light {
     color: #999999; }
-  .mix-txt_cursive {
-    font-family: "Indie Flower", cursive; }
   .mix-txt_italic {
     font-style: italic; }
   .vlist > * {
@@ -493,11 +494,15 @@ img {
   .page {
     background-color: #fefffd;
     font-size: 16px;
-    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     letter-spacing: 1px;
     line-height: 1.2; }
-  .page-hd {
-    border-bottom: 4px solid #2d9fe9; }
+  .page-ft {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #666; }
   .alert {
     margin-bottom: 10px;
     padding: 15px;
@@ -558,7 +563,7 @@ img {
     /* fallback for non rgba browsers */
     color: rgba(255, 255, 255, 0.9);
     font-size: 16px;
-    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: normal;
     /* set to normal to .btn can be usd on inputs in firefox with consistency */
     text-align: center;
@@ -722,7 +727,7 @@ img {
 
 @media only screen and (max-width: 767px) and (min-width: 0) {
   .hdg {
-    font-family: "Lora", "Georgia" serif;
+    font-family: "Georgia" serif;
     font-weight: normal;
     line-height: 1.2; }
   .hdg > a:hover {
@@ -739,7 +744,7 @@ img {
   .hdg_5 {
     font-size: 12px; }
   .mix-hdg_sans {
-    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
   .mix-hdg_caps {
     text-transform: uppercase; }
   .mix-hdg_blue {
@@ -807,8 +812,6 @@ img {
     text-align: right; }
   .mix-txt_light {
     color: #999999; }
-  .mix-txt_cursive {
-    font-family: "Indie Flower", cursive; }
   .mix-txt_italic {
     font-style: italic; }
   .vlist > * {

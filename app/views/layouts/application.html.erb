@@ -11,7 +11,15 @@
 <body>
 
     <div class="page" data-controller="js-app">
-        <%= yield %>
+        <%= render 'layouts/header' %>
+
+        <div class="page-bd">
+            <div class="wrapper">
+                <%= yield %>
+            </div>
+        </div>
+
+        <%= render 'layouts/footer' %>
     </div>
 
     <script src=<% root_path %>"/assets/scripts/bundle.js"></script>
