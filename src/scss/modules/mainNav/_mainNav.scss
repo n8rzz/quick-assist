@@ -1,0 +1,25 @@
+// ---------------------------------------------------------------------
+// Main Navigation
+// ---------------------------------------------------------------------
+.mainNav {}
+
+.mainNav-item {
+    position: relative;
+    display: inline-block;
+}
+
+.mainNav-item + .mainNav-item {
+    margin-left: 20px;
+}
+
+.mainNav-item_subMenu {
+    background: #ccc;
+    position: absolute;
+    left: -99999px;
+}
+
+.mainNav-item:hover > .mainNav-item_subMenu {
+    left: 0;
+    background: #ffffff;
+}
+

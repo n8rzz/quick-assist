@@ -445,6 +445,18 @@ img {
     width: 100%;
     min-width: 75px;
     max-width: 250px; }
+  .mainNav-item {
+    position: relative;
+    display: inline-block; }
+  .mainNav-item + .mainNav-item {
+    margin-left: 20px; }
+  .mainNav-item_subMenu {
+    background: #ccc;
+    position: absolute;
+    left: -99999px; }
+  .mainNav-item:hover > .mainNav-item_subMenu {
+    left: 0;
+    background: #ffffff; }
   .media {
     overflow: hidden; }
   .media-img {
@@ -810,6 +822,18 @@ img {
     width: 100%;
     min-width: 75px;
     max-width: 250px; }
+  .mainNav-item {
+    position: relative;
+    display: inline-block; }
+  .mainNav-item + .mainNav-item {
+    margin-left: 20px; }
+  .mainNav-item_subMenu {
+    background: #ccc;
+    position: absolute;
+    left: -99999px; }
+  .mainNav-item:hover > .mainNav-item_subMenu {
+    left: 0;
+    background: #ffffff; }
   .media {
     overflow: hidden; }
   .media-img {
