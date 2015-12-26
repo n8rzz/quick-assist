@@ -1,0 +1,22 @@
+// ---------------------------------------------------------------------
+// Section - Small Screen
+// ---------------------------------------------------------------------
+$BASE_PADDING: 10px;
+
+.section {
+    padding-top: $BASE_PADDING;
+    padding-bottom: $BASE_PADDING;
+}
+
+.section_media {
+    display: block;
+}
+
+.section_media-img {
+    display: block;
+}
+
+.section_media-bd {
+    display: block;
+    padding-left: 0;
+}

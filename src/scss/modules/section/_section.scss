@@ -1,0 +1,25 @@
+// ---------------------------------------------------------------------
+// Section
+// ---------------------------------------------------------------------
+$BASE_PADDING: 30px;
+
+.section {
+    padding-top: $BASE_PADDING;
+    padding-bottom: $BASE_PADDING;
+}
+
+.section_media {
+    display: table;
+    width: 100%;
+}
+
+.section_media-img {
+    display: table-cell;
+}
+
+.section_media-bd {
+    display: table-cell;
+    height: 100%;
+    padding-left: 20px;
+    vertical-align: middle;
+}

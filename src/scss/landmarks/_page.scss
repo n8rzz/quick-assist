@@ -9,14 +9,20 @@
   line-height: 1.2;
 }
 
-.page-hd {}
+.page-hd {
+    text-align: center;
+}
 
 .page-bd {}
 
 .page-ft {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    left: 0;
+    // position: fixed;
+    // right: 0;
+    // bottom: 0;
+    // left: 0;
     background-color: #666;
+}
+
+.mix-page-hd_bordered {
+    border-bottom: 1px solid #cccccc;
 }

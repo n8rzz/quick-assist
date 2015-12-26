@@ -3,19 +3,21 @@
 
  An abstract inter-modular object used to add space between elements
 ------------------------------------------------------------------------ */
+$BASE_MARGIN: 4px;
+
 
 .vr {
-    margin-bottom: 4px;
+    margin-bottom: $BASE_MARGIN;
 }
 
-.vr_x2 {
-    margin-bottom: 8px;
+.vr_2x {
+    margin-bottom: $BASE_MARGIN * 2;
 }
 
-.vr_x4 {
-    margin-bottom: 16px;
+.vr_4x {
+    margin-bottom: $BASE_MARGIN * 4;
 }
 
-.vr_x6 {
-    margin-bottom: 24px;
+.vr_6x {
+    margin-bottom: $BASE_MARGIN * 6;
 }
