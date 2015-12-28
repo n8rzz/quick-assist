@@ -117,11 +117,11 @@ textarea {
   .u-isNotScrollable {
     overflow: hidden; } }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 329px) {
   .u-isHiddenMD {
     display: none !important; } }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 328px) {
   .u-isHiddenSM {
     display: none !important; } }
 
@@ -261,7 +261,7 @@ img {
     -ms-box-sizing: border-box;
     -o-box-sizing: border-box;
     box-sizing: border-box;
-    transition: all 0.12s ease-in-out; }
+    transition: 0.12s; }
   .btn:hover {
     color: #0066cc;
     background: #ffffff;
@@ -444,7 +444,8 @@ img {
   .mix-hdg_blue {
     color: #0066cc; }
   .hlist > * {
-    display: inline-block; }
+    display: inline-block;
+    vertical-align: middle; }
   .hlist > * + * {
     margin-left: 5px; }
   .hlist_loose > * + * {
@@ -482,7 +483,7 @@ img {
   .link:hover {
     color: #2d9fe9;
     text-decoration: underline;
-    transition: all 0.12s ease-in-out; }
+    transition: all, 0.12s; }
   .logo_cta {
     width: 100%;
     min-width: 75px;
@@ -492,6 +493,16 @@ img {
     display: inline-block;
     padding-top: 10px;
     padding-bottom: 10px; }
+  .mainNav-item > a,
+  .mainNav-item > a:visited,
+  .subMenu-item > a,
+  .subMenu-item > a:visited {
+    color: #000000; }
+    .mainNav-item > a:hover,
+    .mainNav-item > a:visited:hover,
+    .subMenu-item > a:hover,
+    .subMenu-item > a:visited:hover {
+      color: #0066cc; }
   .mainNav-item + .mainNav-item {
     margin-left: 20px;
     padding-left: 20px; }
@@ -706,7 +717,7 @@ img {
     -ms-box-sizing: border-box;
     -o-box-sizing: border-box;
     box-sizing: border-box;
-    transition: all 0.12s ease-in-out; }
+    transition: 0.12s; }
   .btn:hover {
     color: #0066cc;
     background: #ffffff;
@@ -889,7 +900,8 @@ img {
   .mix-hdg_blue {
     color: #0066cc; }
   .hlist > * {
-    display: inline-block; }
+    display: inline-block;
+    vertical-align: middle; }
   .hlist > * + * {
     margin-left: 5px; }
   .hlist_loose > * + * {
@@ -927,7 +939,7 @@ img {
   .link:hover {
     color: #2d9fe9;
     text-decoration: underline;
-    transition: all 0.12s ease-in-out; }
+    transition: all, 0.12s; }
   .logo_cta {
     width: 100%;
     min-width: 75px;
@@ -937,6 +949,16 @@ img {
     display: inline-block;
     padding-top: 10px;
     padding-bottom: 10px; }
+  .mainNav-item > a,
+  .mainNav-item > a:visited,
+  .subMenu-item > a,
+  .subMenu-item > a:visited {
+    color: #000000; }
+    .mainNav-item > a:hover,
+    .mainNav-item > a:visited:hover,
+    .subMenu-item > a:hover,
+    .subMenu-item > a:visited:hover {
+      color: #0066cc; }
   .mainNav-item + .mainNav-item {
     margin-left: 20px;
     padding-left: 20px; }
@@ -1062,6 +1084,51 @@ img {
     width: 100%;
     max-width: 100%;
     font-size: 16px; }
+  .logo_mainNav {
+    width: 50px; }
+  /* Heavily inspired by: http://codepen.io/designcouch/pen/Atyop */
+  .trigger {
+    width: 50px;
+    height: 30px;
+    position: relative;
+    cursor: pointer;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    transition: 0.5s ease-in-out; }
+  .trigger > span {
+    position: absolute;
+    left: 0;
+    height: 6px;
+    width: 100%;
+    background: #000000;
+    border-radius: 6px;
+    opacity: 1;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    transition: 0.25s, ease-in-out; }
+  .trigger > span:hover {
+    color: #0066cc; }
+  .trigger > span:nth-child(1) {
+    top: 0px; }
+  .trigger > span:nth-child(2),
+  .trigger > span:nth-child(3) {
+    top: 12px; }
+  .trigger > span:nth-child(4) {
+    top: 24px; }
+  .trigger_isOpen > span:nth-child(1) {
+    width: 0;
+    top: 12px;
+    left: 50%; }
+  .trigger_isOpen > span:nth-child(2) {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg); }
+  .trigger_isOpen > span:nth-child(3) {
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg); }
+  .trigger_isOpen > span:nth-child(4) {
+    width: 0;
+    top: 12px;
+    left: 50%; }
   .priceLevel > * {
     display: block;
     width: 100%; }

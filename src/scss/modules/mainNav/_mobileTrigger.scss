@@ -1,0 +1,67 @@
+// ---------------------------------------------------------------------
+// Mobile Nav Trigger
+// ---------------------------------------------------------------------
+// Number that all positions are based on
+$BASE_UNIT: 6px;
+
+/* Heavily inspired by: http://codepen.io/designcouch/pen/Atyop */
+.trigger {
+    width: 50px;
+    height: $BASE_UNIT * 5;
+    position: relative;
+    cursor: pointer;
+
+    @include transform(rotate(0deg));
+    @include transition(.5s ease-in-out);
+}
+
+.trigger > span {
+    position: absolute;
+    left: 0;
+    height: $BASE_UNIT;
+    width: 100%;
+    background: #000000;
+    border-radius: $BASE_UNIT;
+    opacity: 1;
+
+    @include transform(rotate(0deg));
+    @include transition(.25s, ease-in-out);
+}
+
+.trigger > span:hover {
+    color: $COLOR_PRIMARY;
+}
+
+.trigger > span:nth-child(1) {
+    top: 0px;
+}
+
+.trigger > span:nth-child(2),
+.trigger > span:nth-child(3) {
+    top: $BASE_UNIT * 2;
+}
+
+.trigger > span:nth-child(4) {
+    top: $BASE_UNIT * 4;
+}
+
+// Open State
+.trigger_isOpen {}
+.trigger_isOpen > span:nth-child(1) {
+    width: 0;
+    top: $BASE_UNIT * 2;
+    left: 50%;
+}
+.trigger_isOpen > span:nth-child(2) {
+    @include transform(rotate(45deg));
+}
+
+.trigger_isOpen > span:nth-child(3) {
+    @include transform(rotate(-45deg));
+}
+
+.trigger_isOpen > span:nth-child(4) {
+    width: 0;
+    top: $BASE_UNIT * 2;
+    left: 50%;
+}

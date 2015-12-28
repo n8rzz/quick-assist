@@ -3,6 +3,7 @@
 // ---------------------------------------------------------------------
 .hlist > * {
     display: inline-block;
+    vertical-align: middle;
 }
 
 .hlist > * + * { margin-left: 5px; }

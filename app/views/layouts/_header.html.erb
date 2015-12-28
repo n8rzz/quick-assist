@@ -1,33 +1,53 @@
 <div class="page-hd mix-page-hd_static" data-controller="js-stickyHeader">
-    <ul class="mainNav">
-        <li class="mainNav-item">
-            <a href="#">Details</a>
-            <ul class="mainNav-item_subMenu">
-                <li class="subMenu-item">
-                    <a href="#">Online</a>
-                </li>
-            </ul>
-        </li>
-        <li class="mainNav-item">
-            <a href="#">Pricing</a>
-        </li>
-        <li class="mainNav-item">
-            <a href="#">More</a>
-            <ul class="mainNav-item_subMenu">
-                <li class="subMenu-item">
-                    <a href="#">Software</a>
-                </li>
-                <li class="subMenu-item">
-                    <a href="#">Contact</a>
-                </li>
-                <li class="subMenu-item">
-                    <a href="#">Docs</a>
-                </li>
-                <li class="subMenu-item">
-                    <a href="#">Reviews</a>
-                </li>
-            </ul>
-        </li>
-    </ul>
+    <div class="u-isHiddenSM">
+        <ul class="mainNav">
+            <li class="mainNav-item">
+                <a href="#">Details</a>
+                <ul class="mainNav-item_subMenu">
+                    <li class="subMenu-item">
+                        <a href="#">Online</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="mainNav-item">
+                <a href="#">Pricing</a>
+            </li>
+            <li class="mainNav-item">
+                <a href="#">More</a>
+                <ul class="mainNav-item_subMenu">
+                    <li class="subMenu-item">
+                        <a href="#">Software</a>
+                    </li>
+                    <li class="subMenu-item">
+                        <a href="#">Contact</a>
+                    </li>
+                    <li class="subMenu-item">
+                        <a href="#">Docs</a>
+                    </li>
+                    <li class="subMenu-item">
+                        <a href="#">Reviews</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div class="u-isHiddenMD" data-controller="js-mobileNav">
+        <ul class="hlist hlist_loose">
+            <li>
+                <a href="#">
+                    <img class="logo_mainNav" src="/assets/images/placeholder-logo-icon.png" />
+                </a>
+            </li>
+            <li>
+                <div class="trigger js-mobileNavTrigger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </li>
+        </ul>
+    </div>
 </div>
 
