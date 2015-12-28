@@ -1,19 +1,19 @@
 import $ from 'jquery-browserify';
-import StickyHeaderView from './StickyHeader/StickyHeaderView';
-// import BiographyCard from './BiographyCard/BiographyCardView';
+// import Debouce from '../Util/Debounce';
+import windowScrollPositionHelper from '../Helpers/WindowScrollPositionHelper';
+
+const CLASS_NAMES = {
+    IS_STATIC: 'mix-page-hd_static',
+    IS_STICKY: 'mix-page-hd_sticky'
+}
 
 /**
- * Base view controller
- *  All other views and controllers are instantiated from this class
- *
- * @class App
+ * @class StickyHeader
  * @author Nate Geslin
  */
-export default class App {
+export default class StickyHeaderView {
     constructor($element) {
         this.$element = $element;
-        this.$stickyHeaderViewElement = null;
-        this.stickyHeaderView = null;
 
         return this._init();
     }
@@ -24,9 +24,22 @@ export default class App {
      * @chainable
      */
     _init() {
+        console.log('StickyHeader', this.$element);
 
-        return this._createChildren()
+        return this._setupHandlers()
+                   ._createChildren()
                    ._enable();
+    }
+
+    /**
+     * @method _setupHandlers
+     * @private
+     * @chainable
+     */
+    _setupHandlers() {
+        window.addEventListener('scroll', () => this._onScrollHandler());
+
+        return this;
     }
 
     /**
@@ -35,9 +48,6 @@ export default class App {
      * @chainable
      */
     _createChildren() {
-        this.$stickyHeaderViewElement = this.$element.find('[data-controller="js-stickyHeader"]');
-        this.stickyHeaderView = new StickyHeaderView(this.$stickyHeaderViewElement);
-
         return this;
     }
 
@@ -51,13 +61,11 @@ export default class App {
     }
 
     /**
-     * @method _disable
-     * @private
+     * @method disable
+     * @public
      * @chainable
      */
-    _disable() {
-        this.stickyHeaderView.disable();
-
+    disable() {
         return this._destroy();
     }
 
@@ -68,9 +76,11 @@ export default class App {
      */
     _destroy() {
         this.$element = null;
-        this.$stickyHeaderViewElement = null;
-        this.stickyHeaderView = null;
 
         return this;
+    }
+
+    _onScrollHandler() {
+        console.log('scroll');
     }
 }
