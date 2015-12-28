@@ -1,19 +1,51 @@
 // ---------------------------------------------------------------------
 // Box
 // ---------------------------------------------------------------------
+$BASE_PADDING: 20px;
+
 .box {
-    padding: 20px;
-    background-color: #efefef;
-    border: 1px solid #3071a9;
+    padding-left: $BASE_PADDING;
+    padding-right: $BASE_PADDING;
 }
 
-.box-hd {
-    margin-bottom: 20px;
+.box_small {
+    padding-top: $PADDING_TINY;
+    padding-bottom: $PADDING_TINY;
 }
 
-.box-bd {
-
+.box_medium {
+    padding-top: $PADDING_MED;
+    padding-bottom: $PADDING_MED;
 }
 
-.box-ft {}
+.box_large {
+    padding-top: $PADDING_XL;
+    padding-bottom: $PADDING_XL;
+}
 
+.mix-box_163202198 {
+    background: rgba(163, 202, 198, 1);
+}
+
+.mix-box_255255255 {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.mix-box_258392 {
+    background: rgba(25, 83, 92, 1);
+}
+
+.mix-box_126209242 {
+    background: rgba(126, 209, 242, 1);
+}
+
+.mix-box_191187157 {
+    background: rgba(191, 187, 157, 1);
+}
+
+.mix-box_645852 {
+    background: rgba(64, 58, 52, 1);
+}
+// .mix-box_dark {
+//     color: ;
+// }

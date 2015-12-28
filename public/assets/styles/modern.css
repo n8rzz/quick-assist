@@ -90,8 +90,6 @@ textarea {
   border: 0;
   padding: 0; }
 
-/* Colors */
-/* Misc Colors */
 .u-isHidden {
   display: none !important; }
 
@@ -144,12 +142,13 @@ img {
 
 @media only screen and (min-width: 329px) {
   .page {
-    background-color: #fefffd;
+    background-color: #F2F2F2;
     font-size: 16px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     letter-spacing: 1px;
     line-height: 1.2; }
   .page-hd {
+    background: #ffffff;
     text-align: center; }
   .page-ft {
     background-color: #666; }
@@ -191,11 +190,29 @@ img {
   .blocks_4up > * {
     width: 25%; }
   .box {
-    padding: 20px;
-    background-color: #efefef;
-    border: 1px solid #3071a9; }
-  .box-hd {
-    margin-bottom: 20px; }
+    padding-left: 20px;
+    padding-right: 20px; }
+  .box_small {
+    padding-top: 3.90625%;
+    padding-bottom: 3.90625%; }
+  .box_medium {
+    padding-top: 10.15625%;
+    padding-bottom: 10.15625%; }
+  .box_large {
+    padding-top: 17.1875%;
+    padding-bottom: 17.1875%; }
+  .mix-box_163202198 {
+    background: #a3cac6; }
+  .mix-box_255255255 {
+    background-color: white; }
+  .mix-box_258392 {
+    background: #19535c; }
+  .mix-box_126209242 {
+    background: #7ed1f2; }
+  .mix-box_191187157 {
+    background: #bfbb9d; }
+  .mix-box_645852 {
+    background: #403a34; }
   .btnAsLink {
     border: 0;
     background: transparent;
@@ -208,9 +225,9 @@ img {
   .btn {
     display: inline-block;
     margin: 0;
-    padding: 8px 16px;
-    border: 0;
-    background: green;
+    padding: 6px 14px;
+    border: 3px solid #0066cc;
+    background: #0066cc;
     color: #eeeeee;
     /* fallback for non rgba browsers */
     color: rgba(255, 255, 255, 0.9);
@@ -221,13 +238,14 @@ img {
     text-align: center;
     text-decoration: none;
     cursor: pointer;
-    border-radius: 6px;
     -ms-box-sizing: border-box;
     -o-box-sizing: border-box;
     box-sizing: border-box;
     transition: all 0.12s ease-in-out; }
   .btn:hover {
-    background: rgba(0, 100, 0, 0.7); }
+    color: #0066cc;
+    background: #ffffff;
+    border: 3px solid #0066cc; }
   .btn-sm {
     padding: 4px 12px;
     font-size: 14px; }
@@ -385,11 +403,11 @@ img {
   .hdg > a:hover {
     text-decoration: none; }
   .hdg_1 {
-    font-size: 26px; }
+    font-size: 46px; }
   .hdg_2 {
-    font-size: 22px; }
+    font-size: 38px; }
   .hdg_3 {
-    font-size: 20px;
+    font-size: 32px;
     font-weight: 500; }
   .hdg_4 {
     font-size: 16px; }
@@ -478,6 +496,18 @@ img {
     margin-bottom: 2px; }
   .preview-subhd {
     margin-bottom: 12px; }
+  .priceLevel {
+    font-size: 0; }
+  .priceLevel > * {
+    width: 33.33334%;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+    box-sizing: border-box; }
+  .priceLevel-item {
+    padding: 3.90625%; }
+  .priceLevel-item-hd {
+    padding-bottom: 23.4375%; }
   .section {
     padding-top: 30px;
     padding-bottom: 30px; }
@@ -531,12 +561,13 @@ img {
 
 @media only screen and (max-width: 328px) and (min-width: 0) {
   .page {
-    background-color: #fefffd;
+    background-color: #F2F2F2;
     font-size: 16px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     letter-spacing: 1px;
     line-height: 1.2; }
   .page-hd {
+    background: #ffffff;
     text-align: center; }
   .page-ft {
     background-color: #666; }
@@ -578,11 +609,29 @@ img {
   .blocks_4up > * {
     width: 25%; }
   .box {
-    padding: 20px;
-    background-color: #efefef;
-    border: 1px solid #3071a9; }
-  .box-hd {
-    margin-bottom: 20px; }
+    padding-left: 20px;
+    padding-right: 20px; }
+  .box_small {
+    padding-top: 3.90625%;
+    padding-bottom: 3.90625%; }
+  .box_medium {
+    padding-top: 10.15625%;
+    padding-bottom: 10.15625%; }
+  .box_large {
+    padding-top: 17.1875%;
+    padding-bottom: 17.1875%; }
+  .mix-box_163202198 {
+    background: #a3cac6; }
+  .mix-box_255255255 {
+    background-color: white; }
+  .mix-box_258392 {
+    background: #19535c; }
+  .mix-box_126209242 {
+    background: #7ed1f2; }
+  .mix-box_191187157 {
+    background: #bfbb9d; }
+  .mix-box_645852 {
+    background: #403a34; }
   .btnAsLink {
     border: 0;
     background: transparent;
@@ -595,9 +644,9 @@ img {
   .btn {
     display: inline-block;
     margin: 0;
-    padding: 8px 16px;
-    border: 0;
-    background: green;
+    padding: 6px 14px;
+    border: 3px solid #0066cc;
+    background: #0066cc;
     color: #eeeeee;
     /* fallback for non rgba browsers */
     color: rgba(255, 255, 255, 0.9);
@@ -608,13 +657,14 @@ img {
     text-align: center;
     text-decoration: none;
     cursor: pointer;
-    border-radius: 6px;
     -ms-box-sizing: border-box;
     -o-box-sizing: border-box;
     box-sizing: border-box;
     transition: all 0.12s ease-in-out; }
   .btn:hover {
-    background: rgba(0, 100, 0, 0.7); }
+    color: #0066cc;
+    background: #ffffff;
+    border: 3px solid #0066cc; }
   .btn-sm {
     padding: 4px 12px;
     font-size: 14px; }
@@ -772,11 +822,11 @@ img {
   .hdg > a:hover {
     text-decoration: none; }
   .hdg_1 {
-    font-size: 26px; }
+    font-size: 46px; }
   .hdg_2 {
-    font-size: 22px; }
+    font-size: 38px; }
   .hdg_3 {
-    font-size: 20px;
+    font-size: 32px;
     font-weight: 500; }
   .hdg_4 {
     font-size: 16px; }
@@ -865,6 +915,18 @@ img {
     margin-bottom: 2px; }
   .preview-subhd {
     margin-bottom: 12px; }
+  .priceLevel {
+    font-size: 0; }
+  .priceLevel > * {
+    width: 33.33334%;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+    box-sizing: border-box; }
+  .priceLevel-item {
+    padding: 3.90625%; }
+  .priceLevel-item-hd {
+    padding-bottom: 23.4375%; }
   .section {
     padding-top: 30px;
     padding-bottom: 30px; }
@@ -915,10 +977,20 @@ img {
     background: #efefef; }
   .wrapper {
     padding: 20px; }
+  .box {
+    padding: 20px; }
+  .box_small {
+    padding: 20px; }
+  .box_medium {
+    padding: 20px; }
+  .box_large {
+    padding: 20px; }
   .input {
     width: 100%;
     max-width: 100%;
     font-size: 14px; }
+  .priceLevel-item {
+    display: block; }
   .section {
     padding-top: 10px;
     padding-bottom: 10px; }

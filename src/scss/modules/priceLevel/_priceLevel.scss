@@ -1,25 +1,26 @@
 // ---------------------------------------------------------------------
-// Blocks
+// Price Level
 // ---------------------------------------------------------------------
-.blocks {
-    margin: -20px 0 0 -20px;
+.priceLevel {
+    // margin: -20px 0 0 -20px;
     font-size: 0;
 }
-.blocks > * {
+
+.priceLevel > * {
+    width: 33.33334%;
     display: inline-block;
-    padding: 20px 0 0 20px;
+    // padding: 20px 0 0 20px;
     vertical-align: top;
     font-size: $BASE_FONT_SIZE;
     box-sizing: border-box;
 }
 
-.blocks_2up > * {
-    width: 50%;
+.priceLevel-item {
+    padding: $PADDING_TINY;
 }
 
-.blocks_3up > * {
-    width: 33.3334%;
+.priceLevel-item-hd {
+    padding-bottom: $PADDING_XXL;
 }
-.blocks_4up > * {
-    width: 25%;
-}
+.priceLevel-item-bd {}
+.priceLevel-item-ft {}

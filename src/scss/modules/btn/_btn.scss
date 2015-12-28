@@ -6,9 +6,9 @@
 .btn {
     display: inline-block;
     margin: 0;
-    padding: 8px 16px;
-    border: 0;
-    background: rgba(0, 128, 0, 1);
+    padding: 6px 14px;
+    border: 3px solid $COLOR_PRIMARY;
+    background: $COLOR_PRIMARY;
     color: #eeeeee; /* fallback for non rgba browsers */
     color: rgba(255, 255, 255, 0.9);
     font-size: $BASE_FONT_SIZE;
@@ -18,14 +18,16 @@
     text-decoration: none;
     // text-transform: uppercase;
     cursor: pointer;
-    border-radius: 6px;
+    // border-radius: 6px;
 
     @include border-box;
     @include transition(all, .12s);
 }
 
 .btn:hover{
-    background: rgba(0, 100, 0, 0.7);
+    color: $COLOR_PRIMARY;
+    background: #ffffff;
+    border: 3px solid $COLOR_PRIMARY;
 }
 
 .btn-sm {

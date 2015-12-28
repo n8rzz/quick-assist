@@ -1,19 +1,44 @@
 // ---------------------------------------------------------------------
-//    Variables
-// ---------------------------------------------------------------------
-/* Colors */
-$COLOR_PRIMARY: #0066cc; //#a3c8e1;
-$COLOR_SECONDARY: #2d9fe9;
-
-/* Misc Colors */
-$COLOR_MID_GREY: #999999;
-$COLOR_ALERT: #b81818;
-// ------------------------------------------------------------------------
 // Site Variables
-// ------------------------------------------------------------------------
+// ---------------------------------------------------------------------
+
+// Screen widths
 $SCREEN_WIDTH_SM: 328px;
 $SCREEN_WIDTH_MD: 767px;
 $SCREEN_WIDTH_LG: 1027px;
+
+// Padding sizes
+$PADDING_TINY: 50px / 1280px * 100%;
+$PADDING_XSM: 70px / 1280px * 100%;
+$PADDING_SM: 114px / 1280px * 100%;
+$PADDING_MED: 130px / 1280px * 100%;
+$PADDING_LRG: 150px / 1280px * 100%;
+$PADDING_XL: 220px / 1280px * 100%;
+$PADDING_XXL: 300px / 1280px * 100%;
+
+// Branding colors
+$COLOR_PRIMARY: #0066cc; //#a3c8e1;
+$COLOR_SECONDARY: #2d9fe9;
+
+// Misc Colors
+$COLOR_WHITE: #F2F2F2;
+$COLOR_MID_GREY: #999999;
+$COLOR_ALERT: #b81818;
+$COLOR_ORANGE: #9B4124;
+
+// #7ED1F2 126, 209, 242
+// #80DDF2
+// #03588C
+// #035AA6
+// #19535C 25, 83, 92
+// #A3CAC6 163, 202, 198
+// #F8EEAE 248, 238, 174
+// #204870
+// #1A436D
+// #BFBB9D 191, 187, 157
+// #857F67
+// #403A34 64, 58, 52
+
 
 // ------------------------------------------------------------------------
 // Icons

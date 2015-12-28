@@ -2,7 +2,7 @@
 // Page
 // ------------------------------------------------------------------------
 .page {
-  background-color: #fefffd;
+  background-color: $COLOR_WHITE;
   font-size: $BASE_FONT_SIZE;
   font-family: $FONT;
   letter-spacing: 1px;
@@ -10,6 +10,7 @@
 }
 
 .page-hd {
+    background: #ffffff;
     text-align: center;
 }
 
