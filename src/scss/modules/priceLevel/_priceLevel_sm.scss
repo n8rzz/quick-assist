@@ -1,5 +1,5 @@
 // ---------------------------------------------------------------------
-// Price Level
+// Price Level - Small
 // ---------------------------------------------------------------------
 .priceLevel {}
 
@@ -12,7 +12,13 @@
     margin-top: 10px;
 }
 
-.priceLevel-item {}
-.priceLevel-item-hd {}
+.priceLevel-item {
+    padding: $BASE_PADDING;
+}
+
+.priceLevel-item-hd {
+    padding-bottom: $PADDING_SM;
+}
+
 .priceLevel-item-bd {}
 .priceLevel-item-ft {}

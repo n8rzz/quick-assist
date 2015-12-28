@@ -1,11 +1,11 @@
 // ---------------------------------------------------------------------
 // Section
 // ---------------------------------------------------------------------
-$BASE_PADDING: 30px;
+$LOCAL_BASE_PADDING: $BASE_PADDING * 3;
 
 .section {
-    padding-top: $BASE_PADDING;
-    padding-bottom: $BASE_PADDING;
+    padding-top: $LOCAL_BASE_PADDING;
+    padding-bottom: $LOCAL_BASE_PADDING;
 }
 
 .section_media {

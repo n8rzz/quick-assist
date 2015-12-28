@@ -1,8 +1,6 @@
 // ---------------------------------------------------------------------
 // Section - Small Screen
 // ---------------------------------------------------------------------
-$BASE_PADDING: 10px;
-
 .section {
     padding-top: $BASE_PADDING;
     padding-bottom: $BASE_PADDING;
@@ -18,5 +16,7 @@ $BASE_PADDING: 10px;
 
 .section_media-bd {
     display: block;
+    margin-top: $BASE_MARGIN;
     padding-left: 0;
+    text-align: center;
 }

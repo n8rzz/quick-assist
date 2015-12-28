@@ -7,10 +7,6 @@
     line-height: 1.2;
 }
 
-// .hdg > a {
-//     text-decoration: inherit;
-// }
-//
 .hdg > a:hover {
     text-decoration: none;
 }
@@ -26,10 +22,10 @@
     font-weight: 500;
 }
 .hdg_4 {
-    font-size: $BASE_FONT_SIZE;
+    font-size: $BASE_FONT_SIZE + 12px;
 }
 .hdg_5 {
-    font-size: $BASE_FONT_SIZE - 4px;
+    font-size: $BASE_FONT_SIZE + 6px;
 }
 
 .mix-hdg_secondarySerif {
@@ -42,6 +38,10 @@
 
 .mix-hdg_caps {
     text-transform: uppercase;
+}
+
+.mix-hdg_accent {
+    color: $COLOR_ACCENT;
 }
 
 .mix-hdg_blue {

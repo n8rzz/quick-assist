@@ -1,9 +1,24 @@
 // ---------------------------------------------------------------------
 // Box
 // ---------------------------------------------------------------------
-$BASE_PADDING: 20px;
+$LOCAL_BASE_PADDING: $BASE_PADDING * 2;
 
-.box { padding: $BASE_PADDING; }
-.box_small { padding: $BASE_PADDING; }
-.box_medium { padding: $BASE_PADDING; }
-.box_large { padding: $BASE_PADDING; }
+.box {
+    padding-left: $LOCAL_BASE_PADDING;
+    padding-right: $LOCAL_BASE_PADDING;
+}
+
+.box_small {
+    padding-top: $LOCAL_BASE_PADDING;
+    padding-bottom: $LOCAL_BASE_PADDING;
+}
+
+.box_medium {
+    padding-top: $PADDING_SM;
+    padding-bottom: $PADDING_SM;
+}
+
+.box_large {
+    padding-top: $PADDING_MED;
+    padding-bottom: $PADDING_MED;
+}

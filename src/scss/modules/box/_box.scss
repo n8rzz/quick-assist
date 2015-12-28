@@ -1,11 +1,9 @@
 // ---------------------------------------------------------------------
 // Box
 // ---------------------------------------------------------------------
-$BASE_PADDING: 20px;
-
 .box {
-    padding-left: $BASE_PADDING;
-    padding-right: $BASE_PADDING;
+    padding-left: $BASE_PADDING * 2;
+    padding-right: $BASE_PADDING * 2;
 }
 
 .box_small {
@@ -46,6 +44,3 @@ $BASE_PADDING: 20px;
 .mix-box_645852 {
     background: rgba(64, 58, 52, 1);
 }
-// .mix-box_dark {
-//     color: ;
-// }
