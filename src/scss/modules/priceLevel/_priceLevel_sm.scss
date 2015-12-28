@@ -3,10 +3,16 @@
 // ---------------------------------------------------------------------
 .priceLevel {}
 
-.priceLevel-item {
+.priceLevel > * {
     display: block;
+    width: 100%;
 }
 
+.priceLevel > * + * {
+    margin-top: 10px;
+}
+
+.priceLevel-item {}
 .priceLevel-item-hd {}
 .priceLevel-item-bd {}
 .priceLevel-item-ft {}

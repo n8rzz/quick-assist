@@ -986,6 +986,11 @@ img {
     background: #efefef; }
   .wrapper {
     padding: 20px; }
+  .blocks {
+    margin: 0; }
+  .blocks > * {
+    display: block;
+    width: 100%; }
   .box {
     padding: 20px; }
   .box_small {
@@ -998,8 +1003,11 @@ img {
     width: 100%;
     max-width: 100%;
     font-size: 16px; }
-  .priceLevel-item {
-    display: block; }
+  .priceLevel > * {
+    display: block;
+    width: 100%; }
+  .priceLevel > * + * {
+    margin-top: 10px; }
   .section {
     padding-top: 10px;
     padding-bottom: 10px; }
