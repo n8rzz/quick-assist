@@ -9,12 +9,20 @@
     box-sizing: border-box;
 }
 
-@mixin transition($direction, $duration) {
-    -webkit-transition: $direction $duration ease-in-out;
-    -moz-transition:  $direction $duration ease-in-out;
-    -ms-transition: $direction $duration ease-in-out;
-    -o-transition: $direction $duration ease-in-out;
-    transition: $direction $duration ease-in-out;
+@mixin transition($transition...) {
+    -webkit-transition: $transition;
+    -moz-transition: $transition;
+    -ms-transition: $transition;
+    -o-transition: $transition;
+    transition: $transition;
+}
+
+@mixin transform($transforms) {
+    -webkit-transform: $transforms;
+    -moz-transform: $transforms;
+    -ms-transform: $transforms;
+    -o-transform: $transforms;
+    transform: $transforms;
 }
 
 @mixin box-shadow($x, $y, $blur, $spread, $color) {
@@ -91,10 +99,10 @@
 // ------------------------------------------------------------------------
 // Visibility
 // ------------------------------------------------------------------------
-@media screen and (min-width: ($SCREEN_WIDTH_MD + 1px)) {
+@media screen and (min-width: ($SCREEN_WIDTH_SM + 1px)) {
     .u-isHiddenMD { display: none !important; }
 }
 
-@media screen and (max-width: $SCREEN_WIDTH_MD) {
+@media screen and (max-width: $SCREEN_WIDTH_SM) {
     .u-isHiddenSM { display: none !important; }
 }

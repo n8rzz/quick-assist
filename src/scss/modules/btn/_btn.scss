@@ -21,7 +21,7 @@
     // border-radius: 6px;
 
     @include border-box;
-    @include transition(all, .12s);
+    @include transition(.12s);
 }
 
 .btn:hover{

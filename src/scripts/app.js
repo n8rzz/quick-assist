@@ -1,6 +1,6 @@
 import $ from 'jquery-browserify';
 import StickyHeaderView from './StickyHeader/StickyHeaderView';
-// import BiographyCard from './BiographyCard/BiographyCardView';
+import MobileNavView from './MobileNav/MobileNavView';
 
 /**
  * Base view controller
@@ -14,6 +14,8 @@ export default class App {
         this.$element = $element;
         this.$stickyHeaderViewElement = null;
         this.stickyHeaderView = null;
+        this.$mobileNavViewElement = null;
+        this.mobileNavView = null;
 
         return this._init();
     }
@@ -37,6 +39,8 @@ export default class App {
     _createChildren() {
         this.$stickyHeaderViewElement = this.$element.find('[data-controller="js-stickyHeader"]');
         this.stickyHeaderView = new StickyHeaderView(this.$stickyHeaderViewElement);
+        this.$mobileNavViewElement = this.$element.find('.js-mainNavView');
+        this.mobileNavView = new MobileNavView(this.$mobileNavViewElement);
 
         return this;
     }
@@ -57,6 +61,7 @@ export default class App {
      */
     _disable() {
         this.stickyHeaderView.disable();
+        this.mobileNavView.disable();
 
         return this._destroy();
     }
@@ -70,6 +75,8 @@ export default class App {
         this.$element = null;
         this.$stickyHeaderViewElement = null;
         this.stickyHeaderView = null;
+        this.$mobileNavViewElement = null;
+        this.mobileNavView = null;
 
         return this;
     }

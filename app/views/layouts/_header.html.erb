@@ -1,5 +1,21 @@
-<div class="page-hd mix-page-hd_static" data-controller="js-stickyHeader">
-    <ul class="mainNav">
+<div class="page-hd mix-page-hd_static js-mainNavView" data-controller="js-stickyHeader">
+    <ul class="mainNav-mobile u-isHiddenMD">
+        <li class="mainNav-mobile-item">
+            <a href="#">
+                <img class="logo_mainNav" src="/assets/images/placeholder-logo-icon.png" />
+            </a>
+        </li>
+        <li class="mainNav-mobile-item">
+            <div class="trigger js-mobileNavTrigger">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </li>
+    </ul>
+
+    <ul class="mainNav u-isHiddenSM js-mainNavList">
         <li class="mainNav-item">
             <a href="#">Details</a>
             <ul class="mainNav-item_subMenu">

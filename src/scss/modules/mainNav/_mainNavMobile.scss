@@ -1,0 +1,18 @@
+// ---------------------------------------------------------------------
+// Main Navigation - Mobile
+// ---------------------------------------------------------------------
+.mainNav-mobile {
+    display: table;
+    width: 100%;
+    padding-right: $BASE_PADDING;
+    padding-left: $BASE_PADDING;
+}
+
+.mainNav-mobile-item {
+    display: table-cell;
+    text-align: left;
+}
+
+.mainNav-mobile-item + .mainNav-mobile-item {
+    text-align: right;
+}

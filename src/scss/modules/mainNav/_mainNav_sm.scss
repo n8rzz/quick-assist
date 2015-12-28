@@ -1,16 +1,35 @@
 // ---------------------------------------------------------------------
 // Main Navigation - Small
 // ---------------------------------------------------------------------
-// .mainNav {}
-//
-// .mainNav-item {}
-//
-// .mainNav-item + .mainNav-item {}
-//
-// .mainNav-item_subMenu {}
-//
-// .subMenu-item {}
-//
+@import '_mobileTrigger';
+@import '_mainNavMobile';
+
+.mainNav {
+
+}
+
+.mainNav-item {
+    display: block;
+    padding-top: $BASE_PADDING * 2;
+    padding-bottom: $BASE_PADDING * 2;
+}
+
+.mainNav-item + .mainNav-item {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.mainNav-item_subMenu {
+    position: relative;
+    display: block;
+    // background: #f6f6f6;
+    box-shadow: none;
+}
+
+.subMenu-item {
+    padding: 0;
+}
+
 // .subMenu-item + .subMenu-item {}
-//
+
 // .mainNav-item:hover > .mainNav-item_subMenu {}
