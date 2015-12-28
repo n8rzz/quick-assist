@@ -518,7 +518,8 @@ img {
     display: table;
     width: 100%; }
   .section_media-img {
-    display: table-cell; }
+    display: table-cell;
+    text-align: center; }
   .section_media-bd {
     display: table-cell;
     height: 100%;
@@ -941,7 +942,8 @@ img {
     display: table;
     width: 100%; }
   .section_media-img {
-    display: table-cell; }
+    display: table-cell;
+    text-align: center; }
   .section_media-bd {
     display: table-cell;
     height: 100%;
