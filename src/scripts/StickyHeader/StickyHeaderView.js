@@ -1,11 +1,10 @@
 import $ from 'jquery-browserify';
-// import Debouce from '../Util/Debounce';
-import windowScrollPositionHelper from '../Helpers/WindowScrollPositionHelper';
+import { didWindowScroll } from '../Helpers/windowScrollPositionHelper';
 
 const CLASS_NAMES = {
     IS_STATIC: 'mix-page-hd_static',
     IS_STICKY: 'mix-page-hd_sticky'
-}
+};
 
 /**
  * @class StickyHeader
@@ -13,7 +12,27 @@ const CLASS_NAMES = {
  */
 export default class StickyHeaderView {
     constructor($element) {
+        /**
+         * @property $element
+         * @type {JQuery|HTML Element}
+         * @default $element
+         */
         this.$element = $element;
+        /**
+        * @property _isEnabled
+        * @type {boolean}
+        * @default false
+        */
+        this._isEnabled = false;
+        /**
+         * Has the IS_STICKY class already been applied?
+         *
+        * @property _isSticky
+        * @type {boolean}
+        * @default galse
+        */
+        this._isSticky = false;
+
 
         return this._init();
     }
@@ -24,22 +43,9 @@ export default class StickyHeaderView {
      * @chainable
      */
     _init() {
-        console.log('StickyHeader', this.$element);
 
-        return this._setupHandlers()
-                   ._createChildren()
+        return this._createChildren()
                    ._enable();
-    }
-
-    /**
-     * @method _setupHandlers
-     * @private
-     * @chainable
-     */
-    _setupHandlers() {
-        window.addEventListener('scroll', () => this._onScrollHandler());
-
-        return this;
     }
 
     /**
@@ -57,6 +63,13 @@ export default class StickyHeaderView {
      * @chainable
      */
     _enable() {
+        if (this._isEnabled) {
+            return this;
+        }
+
+        this._isEnabled = true;
+        window.addEventListener('scroll', () => this._onScrollHandler());
+
         return this;
     }
 
@@ -66,6 +79,13 @@ export default class StickyHeaderView {
      * @chainable
      */
     disable() {
+        if (!this._isEnabled) {
+            return this;
+        }
+
+        this._isEnabled = false;
+        window.removeEventListener('scroll', () => this._onScrollHandler());
+
         return this._destroy();
     }
 
@@ -80,7 +100,21 @@ export default class StickyHeaderView {
         return this;
     }
 
+    /**
+     * TODO: implement a short debouce to prevent constant checks of the window scroll position
+     *
+     * @method _onScrollHandler
+     * @private
+     * @callback
+     */
     _onScrollHandler() {
-        console.log('scroll');
+        if (didWindowScroll() && !this._isSticky) {
+            this.$element.removeClass(CLASS_NAMES.IS_STATIC).addClass(CLASS_NAMES.IS_STICKY);
+            this._isSticky = true;
+
+        } else if (!didWindowScroll()) {
+            this.$element.removeClass(CLASS_NAMES.IS_STICKY).addClass(CLASS_NAMES.IS_STATIC);
+            this._isSticky = false;
+        }
     }
 }
