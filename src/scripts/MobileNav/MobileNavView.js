@@ -33,8 +33,9 @@ export default class MobileNavView {
          */
         this._isEnabled = false;
         /**
-         *
-         *
+         * @property $manNav
+         * @type {JQuery|HTML Element}
+         * @default null
          */
         this.$mainNav = null;
         /**
@@ -83,6 +84,7 @@ export default class MobileNavView {
 
         this._isEnabled = true;
         this.$mobileNavTrigger.on('click', (event) => this._onClickHandler(event));
+        this.$mobileNavTrigger.on('touchstart', (event => this._onClickHandler(event)));
 
         return this;
     }
@@ -99,6 +101,7 @@ export default class MobileNavView {
 
         this._isEnabled = false;
         this.$mobileNavTrigger.off('click', () => this._onClickHandler());
+        this.$mobileNavTrigger.of('touchstart', (event => this._onClickHandler(event)));
 
         return this._destroy();
     }
