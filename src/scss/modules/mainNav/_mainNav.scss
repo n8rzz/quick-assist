@@ -1,7 +1,9 @@
 // ---------------------------------------------------------------------
 // Main Navigation
 // ---------------------------------------------------------------------
-.mainNav {}
+.mainNav {
+    @include transition(.12s);
+}
 
 .mainNav-item {
     position: relative;
@@ -27,11 +29,13 @@
 }
 
 .mainNav-item_subMenu {
-    background: #ccc;
-    position: absolute;
-    left: -99999px;
-    // padding: 10px;
-    @include box-shadow(0, 4px, 8px, -3px, #666666);
+
+    @media only screen and (min-width: $SCREEN_WIDTH_SM + 1px) {
+        position: absolute;
+        left: -99999px;
+        // padding: 10px;
+        @include box-shadow(0, 4px, 8px, -3px, #666666);
+    }
 }
 
 .subMenu-item {
@@ -43,9 +47,12 @@
 }
 
 .mainNav-item:hover > .mainNav-item_subMenu {
-    left: -5px;
-    padding-top: 10px;
-    background: #ffffff;
-    text-align: left;
+
+    @media only screen and (min-width: $SCREEN_WIDTH_SM + 1px) {
+        left: -5px;
+        padding-top: 10px;
+        background: #ffffff;
+    }
 }
+
 

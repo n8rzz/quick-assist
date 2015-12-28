@@ -7,6 +7,7 @@ import $ from 'jquery-browserify';
  */
 const CLASS_NAMES = {
     IS_OPEN: 'trigger_isOpen',
+    IS_HIDDEN_SM: 'u-isHiddenSM'
 }
 
 /**
@@ -31,6 +32,11 @@ export default class MobileNavView {
          * @private
          */
         this._isEnabled = false;
+        /**
+         *
+         *
+         */
+        this.$mainNav = null;
         /**
          * @property $mobileNavTrigger
          * @type {JQuery|HTML Element}
@@ -59,6 +65,7 @@ export default class MobileNavView {
      * @chainable
      */
     _createChildren() {
+        this.$mainNav = this.$element.find('.js-mainNavList');
         this.$mobileNavTrigger = this.$element.find('.js-mobileNavTrigger');
 
         return this;
@@ -102,6 +109,7 @@ export default class MobileNavView {
      * @chainable
      */
     _destroy() {
+        this.$mainNav = null;
         this.$mobileNavTrigger = null;
 
         return this;
@@ -116,5 +124,6 @@ export default class MobileNavView {
         event.preventDefault()
 
         this.$mobileNavTrigger.toggleClass(CLASS_NAMES.IS_OPEN);
+        this.$mainNav.toggleClass(CLASS_NAMES.IS_HIDDEN_SM);
     }
 }

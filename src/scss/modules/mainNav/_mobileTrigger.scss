@@ -2,12 +2,13 @@
 // Mobile Nav Trigger
 // ---------------------------------------------------------------------
 // Number that all positions are based on
-$BASE_UNIT: 6px;
+$BASE_UNIT: 4px;
 
 /* Heavily inspired by: http://codepen.io/designcouch/pen/Atyop */
 .trigger {
-    width: 50px;
-    height: $BASE_UNIT * 5;
+    display: inline-block;
+    width: $BASE_UNIT * 10;
+    height: 25px;
     position: relative;
     cursor: pointer;
 
@@ -38,11 +39,11 @@ $BASE_UNIT: 6px;
 
 .trigger > span:nth-child(2),
 .trigger > span:nth-child(3) {
-    top: $BASE_UNIT * 2;
+    top: ($BASE_UNIT * 2) + 1px;
 }
 
 .trigger > span:nth-child(4) {
-    top: $BASE_UNIT * 4;
+    top: ($BASE_UNIT * 4) + 2px;
 }
 
 // Open State

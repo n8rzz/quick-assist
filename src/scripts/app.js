@@ -39,7 +39,7 @@ export default class App {
     _createChildren() {
         this.$stickyHeaderViewElement = this.$element.find('[data-controller="js-stickyHeader"]');
         this.stickyHeaderView = new StickyHeaderView(this.$stickyHeaderViewElement);
-        this.$mobileNavViewElement = this.$element.find('[data-controller="js-mobileNav"]');
+        this.$mobileNavViewElement = this.$element.find('.js-mainNavView');
         this.mobileNavView = new MobileNavView(this.$mobileNavViewElement);
 
         return this;
