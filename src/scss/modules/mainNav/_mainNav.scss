@@ -28,16 +28,6 @@
     padding-left: 20px;
 }
 
-.mainNav-item_subMenu {
-
-    @media only screen and (min-width: $SCREEN_WIDTH_SM + 1px) {
-        position: absolute;
-        left: -99999px;
-        // padding: 10px;
-        @include box-shadow(0, 4px, 8px, -3px, #666666);
-    }
-}
-
 .subMenu-item {
     padding: 10px 30px 10px 10px;
 }
@@ -46,9 +36,16 @@
     margin-top: 5px;
 }
 
-.mainNav-item:hover > .mainNav-item_subMenu {
 
-    @media only screen and (min-width: $SCREEN_WIDTH_SM + 1px) {
+@media only screen and (min-width: $SCREEN_WIDTH_SM + 1px) {
+    .mainNav-item_subMenu {
+        position: absolute;
+        left: -99999px;
+
+        @include box-shadow(0, 4px, 8px, -3px, #666666);
+    }
+
+    .mainNav-item:hover > .mainNav-item_subMenu {
         left: -5px;
         padding-top: 10px;
         background: #ffffff;

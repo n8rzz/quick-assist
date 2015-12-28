@@ -4,7 +4,11 @@
 @import '_mobileTrigger';
 @import '_mainNavMobile';
 
-// .mainNav {}
+.mainNav {
+    margin-top: $BASE_MARGIN * 2;
+    border-top: 2px solid $COLOR_MID_GREY;
+    // box-shadow: inset 0px 20px 32px -20px rgba(0, 0, 0, 0.2);
+}
 
 .mainNav-item {
     display: block;

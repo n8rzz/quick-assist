@@ -1,0 +1,13 @@
+// ------------------------------------------------------------------------
+// Page
+// ------------------------------------------------------------------------
+
+// The sticky mixin is applied via javascript and, once applied, causes the element its applied to to
+// have a fixed position.
+//
+// Thus, this rule is needed to prevent a jarring scroll jump once the sticky mixin is applied/removed
+// Inline media-queries are necessary due to precentage based paddings
+.mix-page-hd_sticky + .page-bd {
+    padding-top: $PADDING_XXL;
+}
+

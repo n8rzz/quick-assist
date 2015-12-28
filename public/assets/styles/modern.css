@@ -154,14 +154,15 @@ img {
   .page-ft {
     background-color: #666; }
   .mix-page-hd_static {
-    padding-top: 5.46875%;
-    padding-bottom: 5.46875%; }
+    padding-top: 3.90625%;
+    padding-bottom: 3.90625%; }
   .mix-page-hd_sticky {
     position: fixed;
     top: 0;
     right: 0;
     left: 0;
-    padding: 3.90625%;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border-bottom: 1px solid #cccccc;
     box-shadow: 0 -4px 20px -2px #222222; } }
 
@@ -508,21 +509,17 @@ img {
       color: #0066cc; }
   .mainNav-item + .mainNav-item {
     margin-left: 20px;
-    padding-left: 20px; } }
-
-@media only screen and (max-width: 328px) and (min-width: 0) and (min-width: 329px) {
-  .mainNav-item_subMenu {
-    position: absolute;
-    left: -99999px;
-    box-shadow: 0 4px 8px -3px #666666; } }
-
-@media only screen and (max-width: 328px) and (min-width: 0) {
+    padding-left: 20px; }
   .subMenu-item {
     padding: 10px 30px 10px 10px; }
   .subMenu-item + .subMenu-item {
     margin-top: 5px; } }
 
 @media only screen and (max-width: 328px) and (min-width: 0) and (min-width: 329px) {
+  .mainNav-item_subMenu {
+    position: absolute;
+    left: -99999px;
+    box-shadow: 0 4px 8px -3px #666666; }
   .mainNav-item:hover > .mainNav-item_subMenu {
     left: -5px;
     padding-top: 10px;
@@ -605,6 +602,8 @@ img {
     background: #efefef; }
   .wrapper {
     padding: 20px; }
+  .mix-page-hd_sticky + .page-bd {
+    padding-top: 17.1875%; }
   .blocks {
     margin: 0; }
   .blocks > * {
@@ -615,13 +614,7 @@ img {
   .feature-hd {
     padding-bottom: 3.90625%; }
   .feature-bd {
-    padding-bottom: 3.90625%; } }
-
-@media only screen and (max-width: 328px) and (min-width: 0) and (max-width: 328px) and (min-width: 0) {
-  .feature-ft > * {
-    display: block; } }
-
-@media only screen and (max-width: 328px) and (min-width: 0) {
+    padding-bottom: 3.90625%; }
   .feature-ft > * + * {
     margin-top: 3.90625%; }
   .hdg_1 {
@@ -657,6 +650,8 @@ img {
     text-align: center; }
   .wrapper {
     padding: 10px; }
+  .mix-page-hd_sticky + .page-bd {
+    padding-top: 23.4375%; }
   .box {
     padding-left: 20px;
     padding-right: 20px; }
@@ -734,6 +729,9 @@ img {
     text-align: left; }
   .mainNav-mobile-item + .mainNav-mobile-item {
     text-align: right; }
+  .mainNav {
+    margin-top: 8px;
+    border-top: 2px solid #999999; }
   .mainNav-item {
     display: block;
     padding-top: 20px;
@@ -761,14 +759,15 @@ img {
   .page-ft {
     background-color: #666; }
   .mix-page-hd_static {
-    padding-top: 5.46875%;
-    padding-bottom: 5.46875%; }
+    padding-top: 3.90625%;
+    padding-bottom: 3.90625%; }
   .mix-page-hd_sticky {
     position: fixed;
     top: 0;
     right: 0;
     left: 0;
-    padding: 3.90625%;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border-bottom: 1px solid #cccccc;
     box-shadow: 0 -4px 20px -2px #222222; } }
 
@@ -1115,21 +1114,17 @@ img {
       color: #0066cc; }
   .mainNav-item + .mainNav-item {
     margin-left: 20px;
-    padding-left: 20px; } }
-
-@media only screen and (max-width: 767px) and (min-width: 329px) and (min-width: 329px) {
-  .mainNav-item_subMenu {
-    position: absolute;
-    left: -99999px;
-    box-shadow: 0 4px 8px -3px #666666; } }
-
-@media only screen and (max-width: 767px) and (min-width: 329px) {
+    padding-left: 20px; }
   .subMenu-item {
     padding: 10px 30px 10px 10px; }
   .subMenu-item + .subMenu-item {
     margin-top: 5px; } }
 
 @media only screen and (max-width: 767px) and (min-width: 329px) and (min-width: 329px) {
+  .mainNav-item_subMenu {
+    position: absolute;
+    left: -99999px;
+    box-shadow: 0 4px 8px -3px #666666; }
   .mainNav-item:hover > .mainNav-item_subMenu {
     left: -5px;
     padding-top: 10px;
@@ -1212,6 +1207,8 @@ img {
     background: #efefef; }
   .wrapper {
     padding: 20px; }
+  .mix-page-hd_sticky + .page-bd {
+    padding-top: 17.1875%; }
   .blocks {
     margin: 0; }
   .blocks > * {
@@ -1222,13 +1219,7 @@ img {
   .feature-hd {
     padding-bottom: 3.90625%; }
   .feature-bd {
-    padding-bottom: 3.90625%; } }
-
-@media only screen and (max-width: 767px) and (min-width: 329px) and (max-width: 328px) and (min-width: 0) {
-  .feature-ft > * {
-    display: block; } }
-
-@media only screen and (max-width: 767px) and (min-width: 329px) {
+    padding-bottom: 3.90625%; }
   .feature-ft > * + * {
     margin-top: 3.90625%; }
   .hdg_1 {
@@ -1278,14 +1269,15 @@ img {
   .page-ft {
     background-color: #666; }
   .mix-page-hd_static {
-    padding-top: 5.46875%;
-    padding-bottom: 5.46875%; }
+    padding-top: 3.90625%;
+    padding-bottom: 3.90625%; }
   .mix-page-hd_sticky {
     position: fixed;
     top: 0;
     right: 0;
     left: 0;
-    padding: 3.90625%;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border-bottom: 1px solid #cccccc;
     box-shadow: 0 -4px 20px -2px #222222; } }
 
@@ -1632,21 +1624,17 @@ img {
       color: #0066cc; }
   .mainNav-item + .mainNav-item {
     margin-left: 20px;
-    padding-left: 20px; } }
-
-@media only screen and (min-width: 768px) and (min-width: 329px) {
-  .mainNav-item_subMenu {
-    position: absolute;
-    left: -99999px;
-    box-shadow: 0 4px 8px -3px #666666; } }
-
-@media only screen and (min-width: 768px) {
+    padding-left: 20px; }
   .subMenu-item {
     padding: 10px 30px 10px 10px; }
   .subMenu-item + .subMenu-item {
     margin-top: 5px; } }
 
 @media only screen and (min-width: 768px) and (min-width: 329px) {
+  .mainNav-item_subMenu {
+    position: absolute;
+    left: -99999px;
+    box-shadow: 0 4px 8px -3px #666666; }
   .mainNav-item:hover > .mainNav-item_subMenu {
     left: -5px;
     padding-top: 10px;
