@@ -1,13 +1,7 @@
 // ---------------------------------------------------------------------
 // Buttons - Small
 // ---------------------------------------------------------------------
-.btn {
-    font-size: $BASE_FONT_SIZE - 2px;;
-}
-
-@media only screen and (max-width: $SCREEN_WIDTH_SM) and (min-width: 0) {
-    .mix-btn_fullOnSM {
-        display: block;
-        width: 100%;
-    }
+.mix-btn_fullOnSM {
+    display: block;
+    width: 100%;
 }

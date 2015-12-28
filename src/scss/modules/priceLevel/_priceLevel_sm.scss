@@ -1,24 +1,10 @@
 // ---------------------------------------------------------------------
 // Price Level - Small
 // ---------------------------------------------------------------------
-.priceLevel {}
-
-.priceLevel > * {
-    display: block;
-    width: 100%;
-}
-
-.priceLevel > * + * {
-    margin-top: 10px;
-}
-
-.priceLevel-item {
-    padding: $BASE_PADDING;
-}
-
-.priceLevel-item-hd {
-    padding-bottom: $PADDING_SM;
-}
-
-.priceLevel-item-bd {}
-.priceLevel-item-ft {}
+// .priceLevel {}
+// .priceLevel > * {}
+// .priceLevel > * + * {}
+// .priceLevel-item {}
+// .priceLevel-item-hd {}
+// .priceLevel-item-bd {}
+// .priceLevel-item-ft {}

@@ -16,12 +16,10 @@
     line-height: normal; /* set to normal to .btn can be usd on inputs in firefox with consistency */
     text-align: center;
     text-decoration: none;
-    // text-transform: uppercase;
     cursor: pointer;
-    // border-radius: 6px;
 
     @include border-box;
-    @include transition(.12s);
+    @include transition(.2s);
 }
 
 .btn:hover{
@@ -37,7 +35,7 @@
 
 .btn_disabled {
     color: #666666; /* fallback for non rgba browsers */
-    color: rgba(0,0,0,.3);
+    color: rgba(0, 0, 0, 0.3);
     background: #cccccc !important; /* override hovers - disabled buttons don't have hover states */
 }
 

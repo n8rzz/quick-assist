@@ -1,19 +1,11 @@
-// _screen_sm.scss
-// ---------------------------------------------------------------------
-// Landmarks
-// ---------------------------------------------------------------------
-
 // ---------------------------------------------------------------------
 // Modules
 // ---------------------------------------------------------------------
-@import "modules/blocks/_blocks_sm";
-@import "modules/btn/_btn_sm";
 @import "modules/box/_box_sm";
+@import "modules/btn/_btn_sm";
 @import "modules/feature/_feature_sm";
-@import "modules/hdg/_hdg_sm";
+// @import "modules/hdg/_hdg_sm";
 @import "modules/input/_input_sm";
 @import "modules/logo/_logo_sm";
-// @import "modules/mainNav/_mainNav_sm";
-@import "modules/priceLevel/_priceLevel_sm";
+@import "modules/mainNav/_mainNav_sm";
 @import "modules/section/_section_sm";
-@import "modules/wrapper/_wrapper_sm";

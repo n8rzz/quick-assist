@@ -1,0 +1,25 @@
+// ---------------------------------------------------------------------
+// Feature - Medium
+// ---------------------------------------------------------------------
+.feature {}
+
+.feature-hd {
+    padding-bottom: $PADDING_TINY;
+}
+
+.feature-bd {
+    padding-bottom: $PADDING_TINY;
+}
+
+.feature-ft {}
+
+.feature-ft > * {
+
+    @media only screen and (max-width: $SCREEN_WIDTH_SM) and (min-width: 0) {
+        display: block;
+    }
+}
+
+.feature-ft > * + * {
+    margin-top: $PADDING_TINY;
+}

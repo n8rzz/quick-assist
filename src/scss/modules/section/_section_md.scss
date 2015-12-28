@@ -1,0 +1,21 @@
+// ---------------------------------------------------------------------
+// Section - Medium
+// ---------------------------------------------------------------------
+.section {
+    padding-top: $BASE_PADDING;
+    padding-bottom: $BASE_PADDING;
+}
+
+.section_media {
+    display: block;
+}
+
+.section_media-img {
+    display: block;
+}
+
+.section_media-content {
+    display: block;
+    padding-left: 0;
+    text-align: center;
+}
