@@ -1,4 +1,5 @@
 import $ from 'jquery-browserify';
+import StickyHeaderView from './StickyHeader/StickyHeaderView';
 // import BiographyCard from './BiographyCard/BiographyCardView';
 
 /**
@@ -11,6 +12,8 @@ import $ from 'jquery-browserify';
 export default class App {
     constructor($element) {
         this.$element = $element;
+        this.$stickyHeaderViewElement = null;
+        this.stickyHeaderView = null;
 
         return this._init();
     }
@@ -32,6 +35,9 @@ export default class App {
      * @chainable
      */
     _createChildren() {
+        this.$stickyHeaderViewElement = this.$element.find('[data-controller="js-stickyHeader"]');
+        this.stickyHeaderView = new StickyHeaderView(this.$stickyHeaderViewElement);
+
         return this;
     }
 
@@ -50,6 +56,8 @@ export default class App {
      * @chainable
      */
     _disable() {
+        this.stickyHeaderView.disable();
+
         return this._destroy();
     }
 
@@ -60,6 +68,8 @@ export default class App {
      */
     _destroy() {
         this.$element = null;
+        this.$stickyHeaderViewElement = null;
+        this.stickyHeaderView = null;
 
         return this;
     }
