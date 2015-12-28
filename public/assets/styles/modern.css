@@ -144,7 +144,7 @@ img {
 @media only screen and (min-width: 329px) {
   .page {
     background-color: #F2F2F2;
-    font-size: 16px;
+    font-size: 18px;
     font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
     letter-spacing: 1px;
     line-height: 1.2; }
@@ -182,7 +182,7 @@ img {
     display: inline-block;
     padding: 20px 0 0 20px;
     vertical-align: top;
-    font-size: 16px;
+    font-size: 18px;
     box-sizing: border-box; }
   .blocks_2up > * {
     width: 50%; }
@@ -232,7 +232,7 @@ img {
     color: #eeeeee;
     /* fallback for non rgba browsers */
     color: rgba(255, 255, 255, 0.9);
-    font-size: 16px;
+    font-size: 18px;
     font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: normal;
     /* set to normal to .btn can be usd on inputs in firefox with consistency */
@@ -249,7 +249,7 @@ img {
     border: 3px solid #0066cc; }
   .btn-sm {
     padding: 4px 12px;
-    font-size: 14px; }
+    font-size: 16px; }
   .btn_disabled {
     color: #666666;
     /* fallback for non rgba browsers */
@@ -404,16 +404,18 @@ img {
   .hdg > a:hover {
     text-decoration: none; }
   .hdg_1 {
-    font-size: 46px; }
+    font-size: 48px; }
   .hdg_2 {
-    font-size: 38px; }
+    font-size: 40px; }
   .hdg_3 {
-    font-size: 32px;
+    font-size: 34px;
     font-weight: 500; }
   .hdg_4 {
-    font-size: 16px; }
+    font-size: 18px; }
   .hdg_5 {
-    font-size: 12px; }
+    font-size: 14px; }
+  .mix-hdg_secondarySerif {
+    font-family: "Junge", Georgia, serif; }
   .mix-hdg_sans {
     font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif; }
   .mix-hdg_caps {
@@ -437,7 +439,7 @@ img {
     padding-right: 10px;
     border: 1px solid #222222;
     border-radius: 2px;
-    font-size: 16px; }
+    font-size: 18px; }
   .input-sm {
     padding-top: 8px;
     padding-bottom: 8px; }
@@ -503,7 +505,7 @@ img {
     width: 33.33334%;
     display: inline-block;
     vertical-align: top;
-    font-size: 16px;
+    font-size: 18px;
     box-sizing: border-box; }
   .priceLevel-item {
     padding: 3.90625%; }
@@ -523,9 +525,9 @@ img {
     padding-left: 20px;
     vertical-align: middle; }
   .txt-sm {
-    font-size: 14px; }
-  .txt-md {
     font-size: 16px; }
+  .txt-md {
+    font-size: 18px; }
   .txt-left {
     text-align: left; }
   .txt-center {
@@ -563,7 +565,7 @@ img {
 @media only screen and (max-width: 328px) and (min-width: 0) {
   .page {
     background-color: #F2F2F2;
-    font-size: 16px;
+    font-size: 18px;
     font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
     letter-spacing: 1px;
     line-height: 1.2; }
@@ -601,7 +603,7 @@ img {
     display: inline-block;
     padding: 20px 0 0 20px;
     vertical-align: top;
-    font-size: 16px;
+    font-size: 18px;
     box-sizing: border-box; }
   .blocks_2up > * {
     width: 50%; }
@@ -651,7 +653,7 @@ img {
     color: #eeeeee;
     /* fallback for non rgba browsers */
     color: rgba(255, 255, 255, 0.9);
-    font-size: 16px;
+    font-size: 18px;
     font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: normal;
     /* set to normal to .btn can be usd on inputs in firefox with consistency */
@@ -668,7 +670,7 @@ img {
     border: 3px solid #0066cc; }
   .btn-sm {
     padding: 4px 12px;
-    font-size: 14px; }
+    font-size: 16px; }
   .btn_disabled {
     color: #666666;
     /* fallback for non rgba browsers */
@@ -823,16 +825,18 @@ img {
   .hdg > a:hover {
     text-decoration: none; }
   .hdg_1 {
-    font-size: 46px; }
+    font-size: 48px; }
   .hdg_2 {
-    font-size: 38px; }
+    font-size: 40px; }
   .hdg_3 {
-    font-size: 32px;
+    font-size: 34px;
     font-weight: 500; }
   .hdg_4 {
-    font-size: 16px; }
+    font-size: 18px; }
   .hdg_5 {
-    font-size: 12px; }
+    font-size: 14px; }
+  .mix-hdg_secondarySerif {
+    font-family: "Junge", Georgia, serif; }
   .mix-hdg_sans {
     font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif; }
   .mix-hdg_caps {
@@ -856,7 +860,7 @@ img {
     padding-right: 10px;
     border: 1px solid #222222;
     border-radius: 2px;
-    font-size: 16px; }
+    font-size: 18px; }
   .input-sm {
     padding-top: 8px;
     padding-bottom: 8px; }
@@ -922,7 +926,7 @@ img {
     width: 33.33334%;
     display: inline-block;
     vertical-align: top;
-    font-size: 16px;
+    font-size: 18px;
     box-sizing: border-box; }
   .priceLevel-item {
     padding: 3.90625%; }
@@ -942,9 +946,9 @@ img {
     padding-left: 20px;
     vertical-align: middle; }
   .txt-sm {
-    font-size: 14px; }
-  .txt-md {
     font-size: 16px; }
+  .txt-md {
+    font-size: 18px; }
   .txt-left {
     text-align: left; }
   .txt-center {
@@ -989,7 +993,7 @@ img {
   .input {
     width: 100%;
     max-width: 100%;
-    font-size: 14px; }
+    font-size: 16px; }
   .priceLevel-item {
     display: block; }
   .section {
