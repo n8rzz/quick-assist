@@ -5,9 +5,13 @@
 @import '_mainNavMobile';
 
 .mainNav {
+    position: relative;
+    top: 0;
     margin-top: $BASE_MARGIN * 2;
-    border-top: 2px solid $COLOR_MID_GREY;
-    // box-shadow: inset 0px 20px 32px -20px rgba(0, 0, 0, 0.2);
+    margin-bottom: -10px;
+    background: #efefef;
+
+    // @include transition(all 0.12s ease);
 }
 
 .mainNav-item {
@@ -24,7 +28,6 @@
 .mainNav-item_subMenu {
     position: relative;
     display: block;
-    // background: #f6f6f6;
     box-shadow: none;
 }
 
@@ -32,5 +35,11 @@
     padding: 0;
 }
 
-// .subMenu-item + .subMenu-item {}
-// .mainNav-item:hover > .mainNav-item_subMenu {}
+.mix-mainNav_isHidden {
+    position: absolute;
+    top: -99999px;
+    right: 0;
+    left: 0;
+    overflow: hidden;
+    height: 0;
+}

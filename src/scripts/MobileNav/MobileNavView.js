@@ -7,7 +7,7 @@ import $ from 'jquery-browserify';
  */
 const CLASS_NAMES = {
     IS_OPEN: 'trigger_isOpen',
-    IS_HIDDEN_SM: 'u-isHiddenSM'
+    IS_HIDDEN_SM: 'mix-mainNav_isHidden'
 }
 
 /**
