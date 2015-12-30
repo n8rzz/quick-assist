@@ -289,6 +289,7 @@ img {
   .excerpt-bd > * + * {
     margin-top: 20px; }
   .feature-hd {
+    max-width: 500px;
     padding-bottom: 3.90625%; }
   .feature-bd {
     padding-bottom: 3.90625%; }
@@ -902,6 +903,7 @@ img {
   .excerpt-bd > * + * {
     margin-top: 20px; }
   .feature-hd {
+    max-width: 500px;
     padding-bottom: 3.90625%; }
   .feature-bd {
     padding-bottom: 3.90625%; }
@@ -1410,6 +1412,7 @@ img {
   .excerpt-bd > * + * {
     margin-top: 20px; }
   .feature-hd {
+    max-width: 500px;
     padding-bottom: 3.90625%; }
   .feature-bd {
     padding-bottom: 3.90625%; }
