@@ -595,6 +595,10 @@ img {
     text-align: center; }
   .txt-right {
     text-align: right; }
+  .mix-color_primary {
+    color: #0066cc; }
+  .mix-txt_primaryGrey {
+    color: #5a5b5d; }
   .mix-txt_light {
     color: #999999; }
   .mix-txt_italic {
@@ -1229,6 +1233,10 @@ img {
     text-align: center; }
   .txt-right {
     text-align: right; }
+  .mix-color_primary {
+    color: #0066cc; }
+  .mix-txt_primaryGrey {
+    color: #5a5b5d; }
   .mix-txt_light {
     color: #999999; }
   .mix-txt_italic {
@@ -1768,6 +1776,10 @@ img {
     text-align: center; }
   .txt-right {
     text-align: right; }
+  .mix-color_primary {
+    color: #0066cc; }
+  .mix-txt_primaryGrey {
+    color: #5a5b5d; }
   .mix-txt_light {
     color: #999999; }
   .mix-txt_italic {
