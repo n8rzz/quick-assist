@@ -223,7 +223,7 @@ img {
     padding-top: 17.1875%;
     padding-bottom: 17.1875%; }
   .mix-box_jumbotron {
-    background: transparent url("/assets/images/black-and-white-city-houses-skyline.jpg") 50% 80% no-repeat;
+    background: transparent url("/assets/images/black-and-white-city-houses-skyline.png") 50% 80% no-repeat;
     background-size: cover; }
   .mix-box_163202198 {
     background: #a3cac6; }
@@ -292,8 +292,7 @@ img {
   .excerpt-bd > * + * {
     margin-top: 20px; }
   .feature-hd {
-    max-width: 500px;
-    padding-bottom: 3.90625%; }
+    max-width: 500px; }
   .feature-bd {
     padding-bottom: 3.90625%; }
   .grid:before,
@@ -439,6 +438,12 @@ img {
     font-size: 30px; }
   .hdg_5 {
     font-size: 24px; }
+  .hdg-tagline {
+    font-size: 24px;
+    color: #ffffff;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.4); }
   .mix-hdg_secondarySerif {
     font-family: "Junge", Georgia, serif; }
   .mix-hdg_sans {
@@ -446,9 +451,11 @@ img {
   .mix-hdg_caps {
     text-transform: uppercase; }
   .mix-hdg_accent {
-    color: #9B4124; }
-  .mix-hdg_blue {
-    color: #0066cc; }
+    color: #7b0b14; }
+  .mix-hdg_primaryGrey {
+    color: #5a5b5d; }
+  .mix-hdg_white {
+    color: #ffffff; }
   .hlist > * {
     display: inline-block;
     vertical-align: middle; }
@@ -494,6 +501,17 @@ img {
     width: 100%;
     min-width: 75px;
     max-width: 250px; }
+  .mainNav-mobile {
+    display: table;
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px; }
+  .mainNav-mobile-item {
+    display: table-cell;
+    text-align: left;
+    vertical-align: middle; }
+  .mainNav-mobile-item + .mainNav-mobile-item {
+    text-align: right; }
   .mainNav-item {
     position: relative;
     display: inline-block;
@@ -557,9 +575,10 @@ img {
   .section_media {
     display: table;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.3); }
+    padding: 30px 0; }
   .section_media-img {
     display: table-cell;
+    padding-bottom: 3.90625%;
     text-align: center; }
   .section_media-content {
     display: table-cell;
@@ -580,6 +599,8 @@ img {
     color: #999999; }
   .mix-txt_italic {
     font-style: italic; }
+  .mix-txt_uppercase {
+    text-transform: uppercase; }
   .vlist > * {
     padding: 10px 0; }
   .mix-vlist_spacious > * + * {
@@ -633,6 +654,9 @@ img {
     font-size: 24px; }
   .hdg_5 {
     font-size: 21px; }
+  .hdg-tagline {
+    font-size: 18px;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.2); }
   .priceLevel > * {
     display: block;
     width: 100%; }
@@ -646,8 +670,7 @@ img {
     padding-top: 10px;
     padding-bottom: 10px; }
   .section_media {
-    display: block;
-    padding: 30px 0; }
+    display: block; }
   .section_media-img {
     display: block; }
   .section_media-content {
@@ -668,8 +691,8 @@ img {
     padding-top: 8.90625%;
     padding-bottom: 8.90625%; }
   .box_large {
-    padding-top: 10.15625%;
-    padding-bottom: 10.15625%; }
+    padding-top: 8.90625%;
+    padding-bottom: 8.90625%; }
   .mix-btn_fullOnSM {
     display: block;
     width: 100%; }
@@ -725,16 +748,6 @@ img {
     width: 0;
     top: 8px;
     left: 50%; }
-  .mainNav-mobile {
-    display: table;
-    width: 100%;
-    padding-right: 10px;
-    padding-left: 10px; }
-  .mainNav-mobile-item {
-    display: table-cell;
-    text-align: left; }
-  .mainNav-mobile-item + .mainNav-mobile-item {
-    text-align: right; }
   .mainNav {
     position: relative;
     top: 0;
@@ -844,7 +857,7 @@ img {
     padding-top: 17.1875%;
     padding-bottom: 17.1875%; }
   .mix-box_jumbotron {
-    background: transparent url("/assets/images/black-and-white-city-houses-skyline.jpg") 50% 80% no-repeat;
+    background: transparent url("/assets/images/black-and-white-city-houses-skyline.png") 50% 80% no-repeat;
     background-size: cover; }
   .mix-box_163202198 {
     background: #a3cac6; }
@@ -913,8 +926,7 @@ img {
   .excerpt-bd > * + * {
     margin-top: 20px; }
   .feature-hd {
-    max-width: 500px;
-    padding-bottom: 3.90625%; }
+    max-width: 500px; }
   .feature-bd {
     padding-bottom: 3.90625%; }
   .grid:before,
@@ -1060,6 +1072,12 @@ img {
     font-size: 30px; }
   .hdg_5 {
     font-size: 24px; }
+  .hdg-tagline {
+    font-size: 24px;
+    color: #ffffff;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.4); }
   .mix-hdg_secondarySerif {
     font-family: "Junge", Georgia, serif; }
   .mix-hdg_sans {
@@ -1067,9 +1085,11 @@ img {
   .mix-hdg_caps {
     text-transform: uppercase; }
   .mix-hdg_accent {
-    color: #9B4124; }
-  .mix-hdg_blue {
-    color: #0066cc; }
+    color: #7b0b14; }
+  .mix-hdg_primaryGrey {
+    color: #5a5b5d; }
+  .mix-hdg_white {
+    color: #ffffff; }
   .hlist > * {
     display: inline-block;
     vertical-align: middle; }
@@ -1115,6 +1135,17 @@ img {
     width: 100%;
     min-width: 75px;
     max-width: 250px; }
+  .mainNav-mobile {
+    display: table;
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px; }
+  .mainNav-mobile-item {
+    display: table-cell;
+    text-align: left;
+    vertical-align: middle; }
+  .mainNav-mobile-item + .mainNav-mobile-item {
+    text-align: right; }
   .mainNav-item {
     position: relative;
     display: inline-block;
@@ -1178,9 +1209,10 @@ img {
   .section_media {
     display: table;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.3); }
+    padding: 30px 0; }
   .section_media-img {
     display: table-cell;
+    padding-bottom: 3.90625%;
     text-align: center; }
   .section_media-content {
     display: table-cell;
@@ -1201,6 +1233,8 @@ img {
     color: #999999; }
   .mix-txt_italic {
     font-style: italic; }
+  .mix-txt_uppercase {
+    text-transform: uppercase; }
   .vlist > * {
     padding: 10px 0; }
   .mix-vlist_spacious > * + * {
@@ -1254,6 +1288,9 @@ img {
     font-size: 24px; }
   .hdg_5 {
     font-size: 21px; }
+  .hdg-tagline {
+    font-size: 18px;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.2); }
   .priceLevel > * {
     display: block;
     width: 100%; }
@@ -1267,8 +1304,7 @@ img {
     padding-top: 10px;
     padding-bottom: 10px; }
   .section_media {
-    display: block;
-    padding: 30px 0; }
+    display: block; }
   .section_media-img {
     display: block; }
   .section_media-content {
@@ -1360,7 +1396,7 @@ img {
     padding-top: 17.1875%;
     padding-bottom: 17.1875%; }
   .mix-box_jumbotron {
-    background: transparent url("/assets/images/black-and-white-city-houses-skyline.jpg") 50% 80% no-repeat;
+    background: transparent url("/assets/images/black-and-white-city-houses-skyline.png") 50% 80% no-repeat;
     background-size: cover; }
   .mix-box_163202198 {
     background: #a3cac6; }
@@ -1429,8 +1465,7 @@ img {
   .excerpt-bd > * + * {
     margin-top: 20px; }
   .feature-hd {
-    max-width: 500px;
-    padding-bottom: 3.90625%; }
+    max-width: 500px; }
   .feature-bd {
     padding-bottom: 3.90625%; }
   .grid:before,
@@ -1576,6 +1611,12 @@ img {
     font-size: 30px; }
   .hdg_5 {
     font-size: 24px; }
+  .hdg-tagline {
+    font-size: 24px;
+    color: #ffffff;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.4); }
   .mix-hdg_secondarySerif {
     font-family: "Junge", Georgia, serif; }
   .mix-hdg_sans {
@@ -1583,9 +1624,11 @@ img {
   .mix-hdg_caps {
     text-transform: uppercase; }
   .mix-hdg_accent {
-    color: #9B4124; }
-  .mix-hdg_blue {
-    color: #0066cc; }
+    color: #7b0b14; }
+  .mix-hdg_primaryGrey {
+    color: #5a5b5d; }
+  .mix-hdg_white {
+    color: #ffffff; }
   .hlist > * {
     display: inline-block;
     vertical-align: middle; }
@@ -1631,6 +1674,17 @@ img {
     width: 100%;
     min-width: 75px;
     max-width: 250px; }
+  .mainNav-mobile {
+    display: table;
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px; }
+  .mainNav-mobile-item {
+    display: table-cell;
+    text-align: left;
+    vertical-align: middle; }
+  .mainNav-mobile-item + .mainNav-mobile-item {
+    text-align: right; }
   .mainNav-item {
     position: relative;
     display: inline-block;
@@ -1694,9 +1748,10 @@ img {
   .section_media {
     display: table;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.3); }
+    padding: 30px 0; }
   .section_media-img {
     display: table-cell;
+    padding-bottom: 3.90625%;
     text-align: center; }
   .section_media-content {
     display: table-cell;
@@ -1717,6 +1772,8 @@ img {
     color: #999999; }
   .mix-txt_italic {
     font-style: italic; }
+  .mix-txt_uppercase {
+    text-transform: uppercase; }
   .vlist > * {
     padding: 10px 0; }
   .mix-vlist_spacious > * + * {

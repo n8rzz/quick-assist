@@ -4,16 +4,25 @@
 .hdg_1 {
     font-size: $BASE_FONT_SIZE + 15px;
 }
+
 .hdg_2 {
     font-size: $BASE_FONT_SIZE + 11px;
 }
+
 .hdg_3 {
     font-size: $BASE_FONT_SIZE + 8px;
     font-weight: 500;
 }
+
 .hdg_4 {
     font-size: $BASE_FONT_SIZE + 6px;
 }
+
 .hdg_5 {
     font-size: $BASE_FONT_SIZE + 3px;
+}
+
+.hdg-tagline {
+    font-size: $BASE_FONT_SIZE;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
 }
