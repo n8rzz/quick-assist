@@ -45,11 +45,11 @@
 .mix-page-hd_sticky + .page-bd {
 
     @media only screen and (max-width: $SCREEN_WIDTH_MD) and (min-width: 0) {
-        padding-top: $PADDING_XXL;
+        padding-top: $PADDING_XL;
     }
 
     @media only screen and (min-width: $SCREEN_WIDTH_MD + 1px) {
-        padding-top: $PADDING_XL;
+        padding-top: $PADDING_LRG;
     }
 }
 
