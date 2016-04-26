@@ -1,7 +1,7 @@
 // ---------------------------------------------------------------------
 // Box - Small
 // ---------------------------------------------------------------------
-$LOCAL_BASE_PADDING: $BASE_PADDING * 2;
+$LOCAL_BASE_PADDING: $BASE_PADDING;// * 2;
 
 .box {
     padding-left: $LOCAL_BASE_PADDING;

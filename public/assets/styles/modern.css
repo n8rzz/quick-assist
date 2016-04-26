@@ -152,7 +152,8 @@ img {
     background: #ffffff;
     text-align: center; }
   .page-ft {
-    background-color: #666; }
+    border-top: 8px solid #aaa;
+    background-color: #e0e0e0; }
   .mix-page-hd_static {
     padding-top: 3.90625%;
     padding-bottom: 3.90625%; }
@@ -220,8 +221,8 @@ img {
     padding-top: 10.15625%;
     padding-bottom: 10.15625%; }
   .box_large {
-    padding-top: 17.1875%;
-    padding-bottom: 17.1875%; }
+    padding-top: 11.71875%;
+    padding-bottom: 11.71875%; }
   .mix-box_jumbotron {
     background: transparent url("/assets/images/black-and-white-city-houses-skyline.png") 50% 80% no-repeat;
     background-size: cover; }
@@ -428,7 +429,7 @@ img {
   .hdg > a:hover {
     text-decoration: none; }
   .hdg_1 {
-    font-size: 48px; }
+    font-size: 58px; }
   .hdg_2 {
     font-size: 40px; }
   .hdg_3 {
@@ -462,7 +463,7 @@ img {
   .hlist > * + * {
     margin-left: 5px; }
   .hlist_loose > * + * {
-    margin-left: 15px; }
+    margin-left: 50px; }
   .mix-hlist_divided > * + * {
     margin-left: 12px;
     padding-left: 12px;
@@ -589,6 +590,8 @@ img {
     font-size: 16px; }
   .txt-md {
     font-size: 18px; }
+  .txt-lg {
+    font-size: 28px; }
   .txt-left {
     text-align: left; }
   .txt-center {
@@ -617,15 +620,15 @@ img {
  An abstract inter-modular object used to add space between elements
 ------------------------------------------------------------------------ */
   .vr {
-    margin-bottom: 4px; }
-  .vr_2x {
     margin-bottom: 8px; }
-  .vr_4x {
+  .vr_2x {
     margin-bottom: 16px; }
-  .vr_6x {
-    margin-bottom: 24px; }
-  .vr_8x {
+  .vr_4x {
     margin-bottom: 32px; }
+  .vr_6x {
+    margin-bottom: 48px; }
+  .vr_8x {
+    margin-bottom: 80px; }
   .well {
     background: #efefef; }
   .wrapper {
@@ -661,6 +664,8 @@ img {
   .hdg-tagline {
     font-size: 18px;
     text-shadow: 1px 1px rgba(0, 0, 0, 0.2); }
+  .image-constrained {
+    max-height: 100px; }
   .priceLevel > * {
     display: block;
     width: 100%; }
@@ -681,16 +686,22 @@ img {
     display: block;
     padding-left: 0;
     text-align: center; }
+  .txt-sm {
+    font-size: 16px; }
+  .txt-md {
+    font-size: 18px; }
+  .txt-lg {
+    font-size: 18px; }
   .wrapper {
     padding: 10px; }
   .mix-page-hd_sticky + .page-bd {
     padding-top: 23.4375%; }
   .box {
-    padding-left: 20px;
-    padding-right: 20px; }
+    padding-left: 10px;
+    padding-right: 10px; }
   .box_small {
-    padding-top: 20px;
-    padding-bottom: 20px; }
+    padding-top: 10px;
+    padding-bottom: 10px; }
   .box_medium {
     padding-top: 8.90625%;
     padding-bottom: 8.90625%; }
@@ -702,6 +713,14 @@ img {
     width: 100%; }
   .feature-ft > * {
     display: block; }
+  .hlist > * {
+    display: block; }
+  .hlist > * + * {
+    margin-top: 5px; }
+  .hlist_loose > * + * {
+    margin-top: 15px; }
+  .mix-hlist_divided > * + * {
+    border-top: 1px solid; }
   .input {
     width: 100%;
     max-width: 100%;
@@ -755,7 +774,7 @@ img {
   .mainNav {
     position: relative;
     top: 0;
-    margin-top: 8px;
+    margin-top: 16px;
     margin-bottom: -10px;
     background: #efefef; }
   .mainNav-item {
@@ -777,7 +796,28 @@ img {
     right: 0;
     left: 0;
     overflow: hidden;
-    height: 0; } }
+    height: 0; }
+  .txt-sm {
+    font-size: 16px; }
+  .txt-md {
+    font-size: 16px; }
+  .txt-lg {
+    font-size: 16px; }
+  /* ---------------------------------------------------------------------
+ Vertical Rhythm
+
+ An abstract inter-modular object used to add space between elements
+------------------------------------------------------------------------ */
+  .vr {
+    margin-bottom: 4px; }
+  .vr_2x {
+    margin-bottom: 8px; }
+  .vr_4x {
+    margin-bottom: 16px; }
+  .vr_6x {
+    margin-bottom: 24px; }
+  .vr_8x {
+    margin-bottom: 40px; } }
 
 @media only screen and (max-width: 767px) and (min-width: 329px) {
   .page {
@@ -790,7 +830,8 @@ img {
     background: #ffffff;
     text-align: center; }
   .page-ft {
-    background-color: #666; }
+    border-top: 8px solid #aaa;
+    background-color: #e0e0e0; }
   .mix-page-hd_static {
     padding-top: 3.90625%;
     padding-bottom: 3.90625%; }
@@ -858,8 +899,8 @@ img {
     padding-top: 10.15625%;
     padding-bottom: 10.15625%; }
   .box_large {
-    padding-top: 17.1875%;
-    padding-bottom: 17.1875%; }
+    padding-top: 11.71875%;
+    padding-bottom: 11.71875%; }
   .mix-box_jumbotron {
     background: transparent url("/assets/images/black-and-white-city-houses-skyline.png") 50% 80% no-repeat;
     background-size: cover; }
@@ -1066,7 +1107,7 @@ img {
   .hdg > a:hover {
     text-decoration: none; }
   .hdg_1 {
-    font-size: 48px; }
+    font-size: 58px; }
   .hdg_2 {
     font-size: 40px; }
   .hdg_3 {
@@ -1100,7 +1141,7 @@ img {
   .hlist > * + * {
     margin-left: 5px; }
   .hlist_loose > * + * {
-    margin-left: 15px; }
+    margin-left: 50px; }
   .mix-hlist_divided > * + * {
     margin-left: 12px;
     padding-left: 12px;
@@ -1227,6 +1268,8 @@ img {
     font-size: 16px; }
   .txt-md {
     font-size: 18px; }
+  .txt-lg {
+    font-size: 28px; }
   .txt-left {
     text-align: left; }
   .txt-center {
@@ -1255,15 +1298,15 @@ img {
  An abstract inter-modular object used to add space between elements
 ------------------------------------------------------------------------ */
   .vr {
-    margin-bottom: 4px; }
-  .vr_2x {
     margin-bottom: 8px; }
-  .vr_4x {
+  .vr_2x {
     margin-bottom: 16px; }
-  .vr_6x {
-    margin-bottom: 24px; }
-  .vr_8x {
+  .vr_4x {
     margin-bottom: 32px; }
+  .vr_6x {
+    margin-bottom: 48px; }
+  .vr_8x {
+    margin-bottom: 80px; }
   .well {
     background: #efefef; }
   .wrapper {
@@ -1299,6 +1342,8 @@ img {
   .hdg-tagline {
     font-size: 18px;
     text-shadow: 1px 1px rgba(0, 0, 0, 0.2); }
+  .image-constrained {
+    max-height: 100px; }
   .priceLevel > * {
     display: block;
     width: 100%; }
@@ -1319,6 +1364,12 @@ img {
     display: block;
     padding-left: 0;
     text-align: center; }
+  .txt-sm {
+    font-size: 16px; }
+  .txt-md {
+    font-size: 18px; }
+  .txt-lg {
+    font-size: 18px; }
   .wrapper {
     padding: 10px; } }
 
@@ -1333,7 +1384,8 @@ img {
     background: #ffffff;
     text-align: center; }
   .page-ft {
-    background-color: #666; }
+    border-top: 8px solid #aaa;
+    background-color: #e0e0e0; }
   .mix-page-hd_static {
     padding-top: 3.90625%;
     padding-bottom: 3.90625%; }
@@ -1401,8 +1453,8 @@ img {
     padding-top: 10.15625%;
     padding-bottom: 10.15625%; }
   .box_large {
-    padding-top: 17.1875%;
-    padding-bottom: 17.1875%; }
+    padding-top: 11.71875%;
+    padding-bottom: 11.71875%; }
   .mix-box_jumbotron {
     background: transparent url("/assets/images/black-and-white-city-houses-skyline.png") 50% 80% no-repeat;
     background-size: cover; }
@@ -1609,7 +1661,7 @@ img {
   .hdg > a:hover {
     text-decoration: none; }
   .hdg_1 {
-    font-size: 48px; }
+    font-size: 58px; }
   .hdg_2 {
     font-size: 40px; }
   .hdg_3 {
@@ -1643,7 +1695,7 @@ img {
   .hlist > * + * {
     margin-left: 5px; }
   .hlist_loose > * + * {
-    margin-left: 15px; }
+    margin-left: 50px; }
   .mix-hlist_divided > * + * {
     margin-left: 12px;
     padding-left: 12px;
@@ -1770,6 +1822,8 @@ img {
     font-size: 16px; }
   .txt-md {
     font-size: 18px; }
+  .txt-lg {
+    font-size: 28px; }
   .txt-left {
     text-align: left; }
   .txt-center {
@@ -1798,15 +1852,15 @@ img {
  An abstract inter-modular object used to add space between elements
 ------------------------------------------------------------------------ */
   .vr {
-    margin-bottom: 4px; }
-  .vr_2x {
     margin-bottom: 8px; }
-  .vr_4x {
+  .vr_2x {
     margin-bottom: 16px; }
-  .vr_6x {
-    margin-bottom: 24px; }
-  .vr_8x {
+  .vr_4x {
     margin-bottom: 32px; }
+  .vr_6x {
+    margin-bottom: 48px; }
+  .vr_8x {
+    margin-bottom: 80px; }
   .well {
     background: #efefef; }
   .wrapper {
