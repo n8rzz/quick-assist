@@ -3,7 +3,10 @@
 // ---------------------------------------------------------------------
 .txt {}
 
-.txt-xsm {}
+.txt-xsm {
+    font-size: 8px
+}
+
 .txt-sm {
   font-size: $BASE_FONT_SIZE - 2px;
 }
@@ -21,6 +24,11 @@
 .txt-left { text-align: left; }
 .txt-center { text-align: center; }
 .txt-right { text-align: right; }
+
+// SHAME!
+.txt-spacious {
+    padding-top: 20px;
+}
 
 .mix-color_primary {
     color: $COLOR_PRIMARY;

@@ -208,7 +208,7 @@ img {
   .blocks_2up > * {
     width: 50%; }
   .blocks_3up > * {
-    width: 33.3334%; }
+    width: 33%; }
   .blocks_4up > * {
     width: 25%; }
   .box {
@@ -224,6 +224,8 @@ img {
   .mix-box_jumbotron {
     background: transparent url("/assets/images/black-and-white-city-houses-skyline.png") 50% 80% no-repeat;
     background-size: cover; }
+  .mix-box_divided {
+    border-bottom: 13px solid #efefef; }
   .mix-box_163202198 {
     background: #a3cac6; }
   .mix-box_255255255 {
@@ -496,6 +498,8 @@ img {
     color: #2d9fe9;
     text-decoration: underline;
     transition: all, 0.12s; }
+  .link-natural {
+    color: #5a5b5d; }
   .logo_cta {
     width: 100%;
     min-width: 75px;
@@ -552,8 +556,9 @@ img {
     float: left;
     margin-right: 20px; }
   .media-bd {
-    padding-left: 30px;
-    overflow: hidden; }
+    padding-left: 100px;
+    overflow: hidden;
+    line-height: 2em; }
   .preview-hd {
     margin-bottom: 2px; }
   .preview-subhd {
@@ -586,6 +591,8 @@ img {
     height: 100%;
     padding-left: 20px;
     vertical-align: middle; }
+  .txt-xsm {
+    font-size: 8px; }
   .txt-sm {
     font-size: 16px; }
   .txt-md {
@@ -598,6 +605,8 @@ img {
     text-align: center; }
   .txt-right {
     text-align: right; }
+  .txt-spacious {
+    padding-top: 20px; }
   .mix-color_primary {
     color: #0066cc; }
   .mix-txt_primaryGrey {
@@ -882,7 +891,7 @@ img {
   .blocks_2up > * {
     width: 50%; }
   .blocks_3up > * {
-    width: 33.3334%; }
+    width: 33%; }
   .blocks_4up > * {
     width: 25%; }
   .box {
@@ -898,6 +907,8 @@ img {
   .mix-box_jumbotron {
     background: transparent url("/assets/images/black-and-white-city-houses-skyline.png") 50% 80% no-repeat;
     background-size: cover; }
+  .mix-box_divided {
+    border-bottom: 13px solid #efefef; }
   .mix-box_163202198 {
     background: #a3cac6; }
   .mix-box_255255255 {
@@ -1170,6 +1181,8 @@ img {
     color: #2d9fe9;
     text-decoration: underline;
     transition: all, 0.12s; }
+  .link-natural {
+    color: #5a5b5d; }
   .logo_cta {
     width: 100%;
     min-width: 75px;
@@ -1226,8 +1239,9 @@ img {
     float: left;
     margin-right: 20px; }
   .media-bd {
-    padding-left: 30px;
-    overflow: hidden; }
+    padding-left: 100px;
+    overflow: hidden;
+    line-height: 2em; }
   .preview-hd {
     margin-bottom: 2px; }
   .preview-subhd {
@@ -1260,6 +1274,8 @@ img {
     height: 100%;
     padding-left: 20px;
     vertical-align: middle; }
+  .txt-xsm {
+    font-size: 8px; }
   .txt-sm {
     font-size: 16px; }
   .txt-md {
@@ -1272,6 +1288,8 @@ img {
     text-align: center; }
   .txt-right {
     text-align: right; }
+  .txt-spacious {
+    padding-top: 20px; }
   .mix-color_primary {
     color: #0066cc; }
   .mix-txt_primaryGrey {
@@ -1436,7 +1454,7 @@ img {
   .blocks_2up > * {
     width: 50%; }
   .blocks_3up > * {
-    width: 33.3334%; }
+    width: 33%; }
   .blocks_4up > * {
     width: 25%; }
   .box {
@@ -1452,6 +1470,8 @@ img {
   .mix-box_jumbotron {
     background: transparent url("/assets/images/black-and-white-city-houses-skyline.png") 50% 80% no-repeat;
     background-size: cover; }
+  .mix-box_divided {
+    border-bottom: 13px solid #efefef; }
   .mix-box_163202198 {
     background: #a3cac6; }
   .mix-box_255255255 {
@@ -1724,6 +1744,8 @@ img {
     color: #2d9fe9;
     text-decoration: underline;
     transition: all, 0.12s; }
+  .link-natural {
+    color: #5a5b5d; }
   .logo_cta {
     width: 100%;
     min-width: 75px;
@@ -1780,8 +1802,9 @@ img {
     float: left;
     margin-right: 20px; }
   .media-bd {
-    padding-left: 30px;
-    overflow: hidden; }
+    padding-left: 100px;
+    overflow: hidden;
+    line-height: 2em; }
   .preview-hd {
     margin-bottom: 2px; }
   .preview-subhd {
@@ -1814,6 +1837,8 @@ img {
     height: 100%;
     padding-left: 20px;
     vertical-align: middle; }
+  .txt-xsm {
+    font-size: 8px; }
   .txt-sm {
     font-size: 16px; }
   .txt-md {
@@ -1826,6 +1851,8 @@ img {
     text-align: center; }
   .txt-right {
     text-align: right; }
+  .txt-spacious {
+    padding-top: 20px; }
   .mix-color_primary {
     color: #0066cc; }
   .mix-txt_primaryGrey {

@@ -11,3 +11,7 @@
     text-decoration: underline;
     @include transition(all, .12s);
 }
+
+.link-natural {
+    color: $COLOR_PRIMARY_GREY;
+}
