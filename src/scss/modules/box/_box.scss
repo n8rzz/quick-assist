@@ -11,15 +11,16 @@
     padding-bottom: $PADDING_TINY;
 }
 
-.box_medium {
+.box_medium,
+.box_large {
     padding-top: $PADDING_MED;
     padding-bottom: $PADDING_MED;
 }
 
-.box_large {
-    padding-top: $PADDING_LRG;
-    padding-bottom: $PADDING_LRG;
-}
+// .box_large {
+//     padding-top: $PADDING_LRG;
+//     padding-bottom: $PADDING_LRG;
+// }
 
 .mix-box_jumbotron {
     background: transparent url("/assets/images/black-and-white-city-houses-skyline.png") 50% 80% no-repeat;

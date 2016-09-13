@@ -9,11 +9,12 @@
 }
 
 .mainNav-mobile-item {
-    display: table-cell;
-    text-align: left;
+    display: inline-block;
+    text-align: center;
     vertical-align: middle;
 }
 
 .mainNav-mobile-item + .mainNav-mobile-item {
     text-align: right;
+    padding-left: 50px;
 }

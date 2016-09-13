@@ -1,12 +1,27 @@
 <div class="page-hd mix-page-hd_static js-mainNavView" data-controller="js-stickyHeader">
     <ul class="mainNav-mobile">
         <li class="mainNav-mobile-item">
-            <a href="#">
+            <a class="link" href="<%= root_path %>">
                 <img class="logo_mainNav" src="/assets/images/qa-logo-q_75x75.png" />
             </a>
         </li>
+        <li class="mainNav-mobile-item">
+          <a class="link" href="<%= bookkeeping_in_the_cloud_path %>">
+            Bookkeeping in the Cloud
+          </a>
+        </li>
+        <li class="mainNav-mobile-item">
+          <a class="link" href="<%= about_path %>">
+            About
+          </a>
+        </li>
+        <li class="mainNav-mobile-item">
+          <a class="link" href="<%= hiring_path %>">
+            We're Hiring!
+          </a>
+        </li>
         <li class="mainNav-mobile-item u-isHiddenSM">
-          <div class="txt txt-sm mix-txt_primaryGrey">
+          <div class="txt txt-sm txt-right mix-txt_primaryGrey">
             <address>
               QuickAssist<br />
               Minneapolis, MN
@@ -31,4 +46,3 @@
         -->
     </ul>
 </div>
-

@@ -217,12 +217,10 @@ img {
   .box_small {
     padding-top: 2.34375%;
     padding-bottom: 2.34375%; }
-  .box_medium {
+  .box_medium,
+  .box_large {
     padding-top: 10.15625%;
     padding-bottom: 10.15625%; }
-  .box_large {
-    padding-top: 11.71875%;
-    padding-bottom: 11.71875%; }
   .mix-box_jumbotron {
     background: transparent url("/assets/images/black-and-white-city-houses-skyline.png") 50% 80% no-repeat;
     background-size: cover; }
@@ -508,11 +506,12 @@ img {
     padding-right: 10px;
     padding-left: 10px; }
   .mainNav-mobile-item {
-    display: table-cell;
-    text-align: left;
+    display: inline-block;
+    text-align: center;
     vertical-align: middle; }
   .mainNav-mobile-item + .mainNav-mobile-item {
-    text-align: right; }
+    text-align: right;
+    padding-left: 50px; }
   .mainNav-item {
     position: relative;
     display: inline-block;
@@ -553,6 +552,7 @@ img {
     float: left;
     margin-right: 20px; }
   .media-bd {
+    padding-left: 30px;
     overflow: hidden; }
   .preview-hd {
     margin-bottom: 2px; }
@@ -734,7 +734,6 @@ img {
     height: 25px;
     position: relative;
     cursor: pointer;
-    -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
     transition: 0.5s ease-in-out; }
   .trigger > span {
@@ -745,7 +744,6 @@ img {
     background: #000000;
     border-radius: 4px;
     opacity: 1;
-    -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
     transition: 0.25s, ease-in-out; }
   .trigger > span:hover {
@@ -762,10 +760,8 @@ img {
     top: 8px;
     left: 50%; }
   .trigger_isOpen > span:nth-child(2) {
-    -webkit-transform: rotate(45deg);
     transform: rotate(45deg); }
   .trigger_isOpen > span:nth-child(3) {
-    -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg); }
   .trigger_isOpen > span:nth-child(4) {
     width: 0;
@@ -895,12 +891,10 @@ img {
   .box_small {
     padding-top: 2.34375%;
     padding-bottom: 2.34375%; }
-  .box_medium {
+  .box_medium,
+  .box_large {
     padding-top: 10.15625%;
     padding-bottom: 10.15625%; }
-  .box_large {
-    padding-top: 11.71875%;
-    padding-bottom: 11.71875%; }
   .mix-box_jumbotron {
     background: transparent url("/assets/images/black-and-white-city-houses-skyline.png") 50% 80% no-repeat;
     background-size: cover; }
@@ -1186,11 +1180,12 @@ img {
     padding-right: 10px;
     padding-left: 10px; }
   .mainNav-mobile-item {
-    display: table-cell;
-    text-align: left;
+    display: inline-block;
+    text-align: center;
     vertical-align: middle; }
   .mainNav-mobile-item + .mainNav-mobile-item {
-    text-align: right; }
+    text-align: right;
+    padding-left: 50px; }
   .mainNav-item {
     position: relative;
     display: inline-block;
@@ -1231,6 +1226,7 @@ img {
     float: left;
     margin-right: 20px; }
   .media-bd {
+    padding-left: 30px;
     overflow: hidden; }
   .preview-hd {
     margin-bottom: 2px; }
@@ -1449,12 +1445,10 @@ img {
   .box_small {
     padding-top: 2.34375%;
     padding-bottom: 2.34375%; }
-  .box_medium {
+  .box_medium,
+  .box_large {
     padding-top: 10.15625%;
     padding-bottom: 10.15625%; }
-  .box_large {
-    padding-top: 11.71875%;
-    padding-bottom: 11.71875%; }
   .mix-box_jumbotron {
     background: transparent url("/assets/images/black-and-white-city-houses-skyline.png") 50% 80% no-repeat;
     background-size: cover; }
@@ -1740,11 +1734,12 @@ img {
     padding-right: 10px;
     padding-left: 10px; }
   .mainNav-mobile-item {
-    display: table-cell;
-    text-align: left;
+    display: inline-block;
+    text-align: center;
     vertical-align: middle; }
   .mainNav-mobile-item + .mainNav-mobile-item {
-    text-align: right; }
+    text-align: right;
+    padding-left: 50px; }
   .mainNav-item {
     position: relative;
     display: inline-block;
@@ -1785,6 +1780,7 @@ img {
     float: left;
     margin-right: 20px; }
   .media-bd {
+    padding-left: 30px;
     overflow: hidden; }
   .preview-hd {
     margin-bottom: 2px; }
