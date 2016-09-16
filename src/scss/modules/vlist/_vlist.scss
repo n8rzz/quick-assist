@@ -1,7 +1,9 @@
 // ---------------------------------------------------------------------
 // Vertical list
 // ---------------------------------------------------------------------
-.vlist {}
+.vlist {
+    margin-top: 10px;
+}
 
 .vlist > * {
     padding: 10px 0;
@@ -13,4 +15,9 @@
 
 .mix-vlist_divided > * + * {
     border-top: 2px solid #bebebe;
+}
+
+.mix-vlist_unordered > * {
+    margin-left: 20px;
+    list-style: square;
 }
