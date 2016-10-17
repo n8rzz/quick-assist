@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   get 'bookkeeping-in-the-cloud', to: 'static_pages#bookkeeping_in_the_cloud' #, as: :bookkeeping_in_the_cloud
   get 'about', to: 'static_pages#about'
   get 'hiring', to: 'static_pages#hiring'
+  get 'testimonials', to: 'static_pages#testimonials'
 end

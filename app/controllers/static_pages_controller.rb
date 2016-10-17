@@ -10,4 +10,7 @@ class StaticPagesController < ApplicationController
 
   def hiring
   end
+
+  def testimonials
+  end
 end

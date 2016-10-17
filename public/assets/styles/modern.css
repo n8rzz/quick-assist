@@ -206,7 +206,7 @@ img {
     font-size: 18px;
     box-sizing: border-box; }
   .blocks_2up > * {
-    width: 50%; }
+    width: 49.9%; }
   .blocks_3up > * {
     width: 33%; }
   .blocks_4up > * {
@@ -227,6 +227,8 @@ img {
   .mix-box_jumbotron {
     background: transparent url("/assets/images/black-and-white-city-houses-skyline.png") 50% 80% no-repeat;
     background-size: cover; }
+  .mix-box_no-top {
+    padding-top: 0 !important; }
   .mix-box_divided {
     border-bottom: 13px solid #efefef; }
   .mix-box_163202198 {
@@ -897,7 +899,7 @@ img {
     font-size: 18px;
     box-sizing: border-box; }
   .blocks_2up > * {
-    width: 50%; }
+    width: 49.9%; }
   .blocks_3up > * {
     width: 33%; }
   .blocks_4up > * {
@@ -918,6 +920,8 @@ img {
   .mix-box_jumbotron {
     background: transparent url("/assets/images/black-and-white-city-houses-skyline.png") 50% 80% no-repeat;
     background-size: cover; }
+  .mix-box_no-top {
+    padding-top: 0 !important; }
   .mix-box_divided {
     border-bottom: 13px solid #efefef; }
   .mix-box_163202198 {
@@ -1468,7 +1472,7 @@ img {
     font-size: 18px;
     box-sizing: border-box; }
   .blocks_2up > * {
-    width: 50%; }
+    width: 49.9%; }
   .blocks_3up > * {
     width: 33%; }
   .blocks_4up > * {
@@ -1489,6 +1493,8 @@ img {
   .mix-box_jumbotron {
     background: transparent url("/assets/images/black-and-white-city-houses-skyline.png") 50% 80% no-repeat;
     background-size: cover; }
+  .mix-box_no-top {
+    padding-top: 0 !important; }
   .mix-box_divided {
     border-bottom: 13px solid #efefef; }
   .mix-box_163202198 {
