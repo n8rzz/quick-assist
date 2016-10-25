@@ -289,6 +289,11 @@ img {
     display: block;
     width: 100%;
     text-align: center; }
+  .btn_threeQuarters {
+    display: block;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center; }
   .mix-btn_alert {
     background: #d53b3b; }
   .mix-btn_alert:hover {
@@ -1017,6 +1022,11 @@ img {
     display: block;
     width: 100%;
     text-align: center; }
+  .btn_threeQuarters {
+    display: block;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center; }
   .mix-btn_alert {
     background: #d53b3b; }
   .mix-btn_alert:hover {
@@ -1624,6 +1634,11 @@ img {
   .btn_block {
     display: block;
     width: 100%;
+    text-align: center; }
+  .btn_threeQuarters {
+    display: block;
+    width: 75%;
+    margin: 0 auto;
     text-align: center; }
   .mix-btn_alert {
     background: #d53b3b; }
