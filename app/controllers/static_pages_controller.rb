@@ -5,6 +5,9 @@ class StaticPagesController < ApplicationController
   def bookkeeping_in_the_cloud
   end
 
+  def services
+  end
+
   def about
   end
 
