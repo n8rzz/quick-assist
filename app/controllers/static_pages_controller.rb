@@ -2,10 +2,10 @@ class StaticPagesController < ApplicationController
   def home
   end
 
-  def bookkeeping_in_the_cloud
+  def services
   end
 
-  def services
+  def get_started
   end
 
   def about
