@@ -1,6 +1,7 @@
 import $ from 'jquery-browserify';
 import StickyHeaderView from './StickyHeader/StickyHeaderView';
 import MobileNavView from './MobileNav/MobileNavView';
+import SurveyView from './SurveyView/SurveyView';
 
 /**
  * Base view controller
@@ -16,6 +17,8 @@ export default class App {
         this.stickyHeaderView = null;
         this.$mobileNavViewElement = null;
         this.mobileNavView = null;
+        this.$surveyViewElement = null;
+        this.surveyView = null;
 
         return this._init();
     }
@@ -41,6 +44,9 @@ export default class App {
         this.stickyHeaderView = new StickyHeaderView(this.$stickyHeaderViewElement);
         this.$mobileNavViewElement = this.$element.find('.js-mainNavView');
         this.mobileNavView = new MobileNavView(this.$mobileNavViewElement);
+        this.$surveyViewElement = this.$element.find('.js-surveyView');
+        this.surveyView = new SurveyView(this.$surveyViewElement);
+
 
         return this;
     }
@@ -62,6 +68,7 @@ export default class App {
     _disable() {
         this.stickyHeaderView.disable();
         this.mobileNavView.disable();
+        this.surveyView.disable();
 
         return this._destroy();
     }
@@ -77,6 +84,8 @@ export default class App {
         this.stickyHeaderView = null;
         this.$mobileNavViewElement = null;
         this.mobileNavView = null;
+        this.$surveyViewElement = null;
+        this.surveyView = null;
 
         return this;
     }

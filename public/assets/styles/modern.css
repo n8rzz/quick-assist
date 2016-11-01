@@ -206,7 +206,7 @@ img {
     font-size: 18px;
     box-sizing: border-box; }
   .blocks_2up > * {
-    width: 50%; }
+    width: 49.9%; }
   .blocks_3up > * {
     width: 33%; }
   .blocks_4up > * {
@@ -227,6 +227,8 @@ img {
   .mix-box_jumbotron {
     background: transparent url("/assets/images/black-and-white-city-houses-skyline.png") 50% 80% no-repeat;
     background-size: cover; }
+  .mix-box_no-top {
+    padding-top: 0; }
   .mix-box_divided {
     border-bottom: 13px solid #efefef; }
   .mix-box_163202198 {
@@ -286,6 +288,11 @@ img {
   .btn_block {
     display: block;
     width: 100%;
+    text-align: center; }
+  .btn_threeQuarters {
+    display: block;
+    width: 75%;
+    margin: 0 auto;
     text-align: center; }
   .mix-btn_alert {
     background: #d53b3b; }
@@ -566,18 +573,53 @@ img {
     margin-bottom: 2px; }
   .preview-subhd {
     margin-bottom: 12px; }
-  .priceLevel {
-    font-size: 0; }
-  .priceLevel > * {
-    width: 33.33334%;
-    display: inline-block;
-    vertical-align: top;
-    font-size: 18px;
-    box-sizing: border-box; }
-  .priceLevel-item {
-    padding: 2.34375%; }
-  .priceLevel-item-hd {
-    padding-bottom: 23.4375%; }
+  .priceTable {
+    width: 892px;
+    margin: 100px auto;
+    text-align: center; }
+    .priceTable:before, .priceTable:after {
+      content: " ";
+      display: table; }
+    .priceTable:after {
+      clear: both; }
+  .priceTablePlan {
+    width: 296px;
+    height: 900px;
+    float: left;
+    text-shadow: 0 1px rgba(255, 255, 255, 0.8);
+    background: #ffffff;
+    color: #333333; }
+  .priceTablePlan-mostPopular {
+    margin-top: -33px;
+    padding-top: 30px;
+    border: 3px solid;
+    border-radius: 9px;
+    z-index: 2; }
+  .priceTablePlan-head {
+    height: 270px;
+    padding: 20px;
+    background-color: #ffffff;
+    background-image: linear-gradient(#eeeeee, #ffffff); }
+  .priceTablePlan-mostPopular > .priceTablePlan-head {
+    background: none; }
+  .priceTablePlan-price {
+    padding: 10px 0;
+    font-weight: 600; }
+  .priceTablePlan-description {
+    padding: 15px 0;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 1.3; }
+  .priceTablePlan-featureList {
+    padding: 15px; }
+  .priceTablePlan-featureList:first-of-type {
+    height: 370px;
+    margin-bottom: 30px; }
+  .priceTablePlan-featureList-item {
+    padding: 10px;
+    font-size: 16px; }
+  .priceTablePlan-featureList-item + .priceTablePlan-featureList-item {
+    border-top: 1px solid #dddddd; }
   .section {
     padding-top: 30px;
     padding-bottom: 30px; }
@@ -897,7 +939,7 @@ img {
     font-size: 18px;
     box-sizing: border-box; }
   .blocks_2up > * {
-    width: 50%; }
+    width: 49.9%; }
   .blocks_3up > * {
     width: 33%; }
   .blocks_4up > * {
@@ -918,6 +960,8 @@ img {
   .mix-box_jumbotron {
     background: transparent url("/assets/images/black-and-white-city-houses-skyline.png") 50% 80% no-repeat;
     background-size: cover; }
+  .mix-box_no-top {
+    padding-top: 0; }
   .mix-box_divided {
     border-bottom: 13px solid #efefef; }
   .mix-box_163202198 {
@@ -977,6 +1021,11 @@ img {
   .btn_block {
     display: block;
     width: 100%;
+    text-align: center; }
+  .btn_threeQuarters {
+    display: block;
+    width: 75%;
+    margin: 0 auto;
     text-align: center; }
   .mix-btn_alert {
     background: #d53b3b; }
@@ -1257,18 +1306,53 @@ img {
     margin-bottom: 2px; }
   .preview-subhd {
     margin-bottom: 12px; }
-  .priceLevel {
-    font-size: 0; }
-  .priceLevel > * {
-    width: 33.33334%;
-    display: inline-block;
-    vertical-align: top;
-    font-size: 18px;
-    box-sizing: border-box; }
-  .priceLevel-item {
-    padding: 2.34375%; }
-  .priceLevel-item-hd {
-    padding-bottom: 23.4375%; }
+  .priceTable {
+    width: 892px;
+    margin: 100px auto;
+    text-align: center; }
+    .priceTable:before, .priceTable:after {
+      content: " ";
+      display: table; }
+    .priceTable:after {
+      clear: both; }
+  .priceTablePlan {
+    width: 296px;
+    height: 900px;
+    float: left;
+    text-shadow: 0 1px rgba(255, 255, 255, 0.8);
+    background: #ffffff;
+    color: #333333; }
+  .priceTablePlan-mostPopular {
+    margin-top: -33px;
+    padding-top: 30px;
+    border: 3px solid;
+    border-radius: 9px;
+    z-index: 2; }
+  .priceTablePlan-head {
+    height: 270px;
+    padding: 20px;
+    background-color: #ffffff;
+    background-image: linear-gradient(#eeeeee, #ffffff); }
+  .priceTablePlan-mostPopular > .priceTablePlan-head {
+    background: none; }
+  .priceTablePlan-price {
+    padding: 10px 0;
+    font-weight: 600; }
+  .priceTablePlan-description {
+    padding: 15px 0;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 1.3; }
+  .priceTablePlan-featureList {
+    padding: 15px; }
+  .priceTablePlan-featureList:first-of-type {
+    height: 370px;
+    margin-bottom: 30px; }
+  .priceTablePlan-featureList-item {
+    padding: 10px;
+    font-size: 16px; }
+  .priceTablePlan-featureList-item + .priceTablePlan-featureList-item {
+    border-top: 1px solid #dddddd; }
   .section {
     padding-top: 30px;
     padding-bottom: 30px; }
@@ -1468,7 +1552,7 @@ img {
     font-size: 18px;
     box-sizing: border-box; }
   .blocks_2up > * {
-    width: 50%; }
+    width: 49.9%; }
   .blocks_3up > * {
     width: 33%; }
   .blocks_4up > * {
@@ -1489,6 +1573,8 @@ img {
   .mix-box_jumbotron {
     background: transparent url("/assets/images/black-and-white-city-houses-skyline.png") 50% 80% no-repeat;
     background-size: cover; }
+  .mix-box_no-top {
+    padding-top: 0; }
   .mix-box_divided {
     border-bottom: 13px solid #efefef; }
   .mix-box_163202198 {
@@ -1548,6 +1634,11 @@ img {
   .btn_block {
     display: block;
     width: 100%;
+    text-align: center; }
+  .btn_threeQuarters {
+    display: block;
+    width: 75%;
+    margin: 0 auto;
     text-align: center; }
   .mix-btn_alert {
     background: #d53b3b; }
@@ -1828,18 +1919,53 @@ img {
     margin-bottom: 2px; }
   .preview-subhd {
     margin-bottom: 12px; }
-  .priceLevel {
-    font-size: 0; }
-  .priceLevel > * {
-    width: 33.33334%;
-    display: inline-block;
-    vertical-align: top;
-    font-size: 18px;
-    box-sizing: border-box; }
-  .priceLevel-item {
-    padding: 2.34375%; }
-  .priceLevel-item-hd {
-    padding-bottom: 23.4375%; }
+  .priceTable {
+    width: 892px;
+    margin: 100px auto;
+    text-align: center; }
+    .priceTable:before, .priceTable:after {
+      content: " ";
+      display: table; }
+    .priceTable:after {
+      clear: both; }
+  .priceTablePlan {
+    width: 296px;
+    height: 900px;
+    float: left;
+    text-shadow: 0 1px rgba(255, 255, 255, 0.8);
+    background: #ffffff;
+    color: #333333; }
+  .priceTablePlan-mostPopular {
+    margin-top: -33px;
+    padding-top: 30px;
+    border: 3px solid;
+    border-radius: 9px;
+    z-index: 2; }
+  .priceTablePlan-head {
+    height: 270px;
+    padding: 20px;
+    background-color: #ffffff;
+    background-image: linear-gradient(#eeeeee, #ffffff); }
+  .priceTablePlan-mostPopular > .priceTablePlan-head {
+    background: none; }
+  .priceTablePlan-price {
+    padding: 10px 0;
+    font-weight: 600; }
+  .priceTablePlan-description {
+    padding: 15px 0;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 1.3; }
+  .priceTablePlan-featureList {
+    padding: 15px; }
+  .priceTablePlan-featureList:first-of-type {
+    height: 370px;
+    margin-bottom: 30px; }
+  .priceTablePlan-featureList-item {
+    padding: 10px;
+    font-size: 16px; }
+  .priceTablePlan-featureList-item + .priceTablePlan-featureList-item {
+    border-top: 1px solid #dddddd; }
   .section {
     padding-top: 30px;
     padding-bottom: 30px; }
